@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test on Different User" time="2218.765" tests="1" failures="1" errors="0">
+   <testsuite name="Test on Different User" tests="1" failures="1" errors="0" time="2218.765" skipped="0" timestamp="2024-03-01 11:00:12" hostname="00145409nuralianatasha - localhost" id="Test Suites/SOW2/Test on Different User">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009"/>
+         <property name="logFiles" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/execution0.log, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/appium.log"/>
+         <property name="attachments" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262306644.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262338477.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262399085.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262692782.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262733684.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262774427.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262891995.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262942845.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262954567.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263015553.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263160558.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263388158.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263419811.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263480457.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263759254.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263799880.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263840757.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263957954.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264008690.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264020239.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264110985.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264217035.png"/>
+         <property name="hostName" value="00145409nuralianatasha - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD" time="2218.32" classname="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:384)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709262009190.run(TempTestSuite1709262009190.groovy:36)
+"/>
+         <system-out><![CDATA[2024-03-01 11:00:12 - [TEST_CASE][FAILED] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:384)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709262009190.run(TempTestSuite1709262009190.groovy:36)
+
+
+2024-03-01 11:00:13 - [TEST_STEP][PASSED] - startExistingApplication("com.maybank2u.life.uat"): Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-03-01 11:00:13 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '']
+
+2024-03-01 11:00:13 - [MESSAGE][INFO] - User set preference: ['autoGrantPermission', 'true']
+
+2024-03-01 11:00:13 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2024-03-01 11:00:13 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2024-03-01 11:00:13 - [MESSAGE][INFO] - User set preference: ['newCommandTimeout', '10000']
+
+2024-03-01 11:00:13 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/20.2.0/bin/node"
+
+2024-03-01 11:00:14 - [MESSAGE][INFO] - Appium server started on port 52,766
+
+2024-03-01 11:00:23 - [MESSAGE][PASSED] - Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-03-01 11:00:23 - [TEST_STEP][FAILED] - for ([row = 1, row <= findTestData("Different_User").getRowNumbers(), (row++)]): null
+
+2024-03-01 11:00:23 - [TEST_STEP][FAILED] - utilities.General_Onboarding.Onboarding_Different_User(row): com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+
+2024-03-01 11:00:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:00:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button'
+
+2024-03-01 11:00:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:00:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button01'
+
+2024-03-01 11:00:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:00:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_button02'
+
+2024-03-01 11:00:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:00:59 - [MESSAGE][WARNING] - Object Object Repository/Onboarding_Obj/Next_button03 not found
+
+2024-03-01 11:00:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Got_It_Button'
+
+2024-03-01 11:01:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Agree_Button1'
+
+2024-03-01 11:01:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:03 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/Log_In_Now_Button' is exist
+
+2024-03-01 11:01:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Log In Now'
+
+2024-03-01 11:01:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Existing M2UMAE user Log in here'
+
+2024-03-01 11:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:08 - [MESSAGE][PASSED] - Text 'retailfx5' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Username'
+
+2024-03-01 11:01:09 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:01:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue'
+
+2024-03-01 11:01:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Its Mine'
+
+2024-03-01 11:01:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:13 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Password'
+
+2024-03-01 11:01:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:01:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue (1)'
+
+2024-03-01 11:01:46 - [MESSAGE][WARNING] - Element 'Object Repository/Onboarding_Obj/android.widget.TextView - Your Maybank2u ID is already linked to the following device' not found
+
+2024-03-01 11:01:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 11:01:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:01:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 11:01:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 11:01:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 11:01:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Set Up Later'
+
+2024-03-01 11:01:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Proceed'
+
+2024-03-01 11:01:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - OTP' is: 'Your OTP no. is 371353'
+
+2024-03-01 11:01:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_3'
+
+2024-03-01 11:01:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:01:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_7'
+
+2024-03-01 11:01:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:02:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_1'
+
+2024-03-01 11:02:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:02:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_3'
+
+2024-03-01 11:02:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:02:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_5'
+
+2024-03-01 11:02:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:02:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_3'
+
+2024-03-01 11:02:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:02:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Enter_Image'
+
+2024-03-01 11:02:13 - [MESSAGE][WARNING] - Object Object Repository/Dashboard_Login/Onboarding_Login/android.widget.EditText - Enter your name not found
+
+2024-03-01 11:02:18 - [MESSAGE][WARNING] - Object Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue (1) not found
+
+2024-03-01 11:02:24 - [MESSAGE][WARNING] - Object Object Repository/Dashboard_Login/Onboarding_Login/GetCurrency not found
+
+2024-03-01 11:02:30 - [MESSAGE][WARNING] - Object Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Next not found
+
+2024-03-01 11:02:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/android.widget.Close_Button'
+
+2024-03-01 11:02:35 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:02:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:03:05 - [MESSAGE][WARNING] - Element 'Object Repository/Dashboard_Login/User_name' not found
+
+2024-03-01 11:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:03:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Customise'
+
+2024-03-01 11:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:03:36 - [MESSAGE][WARNING] - Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions not found
+
+2024-03-01 11:03:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:04:06 - [MESSAGE][FAILED] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+
+2024-03-01 11:04:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:04:36 - [MESSAGE][FAILED] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Simply hold and drag to rearrange the actions' not found
+
+2024-03-01 11:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:05:06 - [MESSAGE][FAILED] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Your current favourite actions' not found
+
+2024-03-01 11:05:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:05:06 - [MESSAGE][WARNING] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Save Changes' not found
+
+2024-03-01 11:05:07 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262306644.png]]
+
+2024-03-01 11:05:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:05:37 - [MESSAGE][FAILED] - Object Object Repository/Mange_Quick_Actions/android.widget.Remove_Image not found
+
+2024-03-01 11:05:38 - [MESSAGE][PASSED] - Swiped from 271,1,756 to 0,0
+
+2024-03-01 11:05:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262338477.png]]
+
+2024-03-01 11:05:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:06:09 - [MESSAGE][FAILED] - Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Currency Exchange not found
+
+2024-03-01 11:06:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:06:39 - [MESSAGE][FAILED] - Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Save Changes not found
+
+2024-03-01 11:06:39 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262399085.png]]
+
+2024-03-01 11:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:07:09 - [MESSAGE][FAILED] - Element 'Object Repository/Quick_Action/android.widget.TextView - Currency Exchange' not found
+
+2024-03-01 11:07:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:07:39 - [MESSAGE][FAILED] - Object Object Repository/Quick_Action/android.widget.TextView - Currency Exchange not found
+
+2024-03-01 11:07:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:08:09 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:08:09 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+
+2024-03-01 11:08:09 - [TEST_STEP][PASSED] - username = findTestData("Dealt_MYR_SGD").getValue("Username", row): null
+
+2024-03-01 11:08:10 - [TEST_STEP][PASSED] - base_currency = findTestData("Dealt_MYR_SGD").getValue("Base_Currency", row): null
+
+2024-03-01 11:08:10 - [TEST_STEP][PASSED] - dealt_currency = findTestData("Dealt_MYR_SGD").getValue("Dealt_Currency", row): null
+
+2024-03-01 11:08:10 - [TEST_STEP][PASSED] - checkLinkedDevice = Validation.checkElementExists("Object Repository/Market Order Page/android.widget.TextView - Enter your password"): Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' not found
+
+2024-03-01 11:08:40 - [MESSAGE][WARNING] - Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' not found
+
+2024-03-01 11:08:40 - [TEST_STEP][PASSED] - if (checkLinkedDevice == true): null
+
+2024-03-01 11:08:40 - [TEST_STEP][PASSED] - else: null
+
+2024-03-01 11:08:40 - [TEST_STEP][PASSED] - CONTINUE_ON_FAILURE: null
+
+2024-03-01 11:08:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-03-01 11:08:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-03-01 11:08:50 - [TEST_STEP][FAILED] - utilities.Deal_Agregator.MarketOrder_FromDropdown(findTestData("Different_User").getValue("Base_Currency", row)): com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency not found
+
+2024-03-01 11:08:55 - [MESSAGE][WARNING] - Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.TextView - Convert_Dropdown not found
+
+2024-03-01 11:09:00 - [MESSAGE][WARNING] - Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.view.View - Select Currency not found
+
+2024-03-01 11:09:05 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency not found
+
+2024-03-01 11:09:10 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency not found
+
+2024-03-01 11:09:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:09:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:09:21 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:09:21 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency not found
+
+2024-03-01 11:09:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-03-01 11:09:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-03-01 11:09:31 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.TextView _EditText"), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.TextView _EditText not found
+
+2024-03-01 11:09:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:10:01 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.TextView _EditText not found
+
+2024-03-01 11:10:01 - [TEST_STEP][PASSED] - digits = "5000": null
+
+2024-03-01 11:10:01 - [TEST_STEP][PASSED] - Currency_Calculator.Currency_Numpad(digits): Object Object Repository/Calc_Pad/android.widget.Image not found
+
+2024-03-01 11:10:06 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 5 not found
+
+2024-03-01 11:10:11 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-01 11:10:16 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-01 11:10:21 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-01 11:10:26 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.Image not found
+
+2024-03-01 11:10:26 - [TEST_STEP][FAILED] - utilities.Deal_Agregator.sow2market_orderdropdown(findTestData("Different_User").getValue("Dealt_Currency", row)): com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SOW2-Market Order/Select_Currency Dropdown not found
+
+2024-03-01 11:10:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:10:56 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/Select_Currency Dropdown not found
+
+2024-03-01 11:11:02 - [MESSAGE][WARNING] - Object Object Repository/SOW2-Market Order/android.view.View - Select Currency not found
+
+2024-03-01 11:11:07 - [MESSAGE][FAILED] - Element 'Object Repository/SOW2-Market Order/android.view.View - Select Currency' not found
+
+2024-03-01 11:11:12 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency not found
+
+2024-03-01 11:11:17 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency not found
+
+2024-03-01 11:11:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:11:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:11:27 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:11:27 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SOW2-Market Order/Select_Currency Dropdown not found
+
+2024-03-01 11:11:27 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Exchange rate"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:11:32 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:11:32 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:11:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262692782.png]]
+
+2024-03-01 11:11:33 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Next"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:11:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:12:03 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:12:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Step 2 of 2"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:12:08 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:12:08 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Step 2 of 2"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:12:13 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:12:13 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:12:14 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262733684.png]]
+
+2024-03-01 11:12:14 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Get Quote"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:12:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:12:44 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:12:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Confirmation"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:12:49 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:12:49 - [TEST_STEP][PASSED] - comment("Confirmation Page"): Confirmation Page
+
+2024-03-01 11:12:49 - [MESSAGE][INFO] - Confirmation Page
+
+2024-03-01 11:12:49 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Amount to receive"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:12:54 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:12:54 - [TEST_STEP][PASSED] - takeScreenshot(CONTINUE_ON_FAILURE): Screenshot is taken
+
+2024-03-01 11:12:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262774427.png]]
+
+2024-03-01 11:12:54 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer"), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer not found
+
+2024-03-01 11:12:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:13:24 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer not found
+
+2024-03-01 11:13:24 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom(): utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:13:25 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-03-01 11:13:25 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-03-01 11:13:26 - [MESSAGE][PASSED] - Swiped from 540,1,496 to 540,641
+
+2024-03-01 11:13:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:13:31 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:13:31 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Confirm"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:13:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:14:01 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:14:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:14:06 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:14:06 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:14:11 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:14:11 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Reference ID"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:14:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:14:41 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:14:41 - [TEST_STEP][FAILED] - reference_id = getText(findTestObject("Market Order Page/android.widget.TextView - Reference ID"), 5, CONTINUE_ON_FAILURE): Object Object Repository/Market Order Page/android.widget.TextView - Reference ID not found
+
+2024-03-01 11:14:46 - [MESSAGE][FAILED] - Object Object Repository/Market Order Page/android.widget.TextView - Reference ID not found
+
+2024-03-01 11:14:46 - [TEST_STEP][FAILED] - amount_received = getText(findTestObject("transaction_successful/Amount received"), 5, CONTINUE_ON_FAILURE): Object Object Repository/transaction_successful/Amount received not found
+
+2024-03-01 11:14:51 - [MESSAGE][FAILED] - Object Object Repository/transaction_successful/Amount received not found
+
+2024-03-01 11:14:51 - [TEST_STEP][PASSED] - comment(reference_id): 
+
+2024-03-01 11:14:51 - [MESSAGE][INFO] - 
+
+2024-03-01 11:14:51 - [TEST_STEP][PASSED] - takeScreenshot(CONTINUE_ON_FAILURE): Screenshot is taken
+
+2024-03-01 11:14:52 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262891995.png]]
+
+2024-03-01 11:14:52 - [TEST_STEP][FAILED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Share Receipt"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:14:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:15:22 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:15:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-03-01 11:15:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-03-01 11:15:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Currency Exchange"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:15:37 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:15:37 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Completed"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:15:42 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:15:42 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:15:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262942845.png]]
+
+2024-03-01 11:15:43 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom(): utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:15:43 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-03-01 11:15:43 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-03-01 11:15:44 - [MESSAGE][PASSED] - Swiped from 540,1,496 to 540,641
+
+2024-03-01 11:15:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:15:49 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:15:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-03-01 11:15:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:15:54 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:15:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709262954567.png]]
+
+2024-03-01 11:15:55 - [TEST_STEP][PASSED] - tap(findTestObject("Market Order Page/android.widget.ImageViewBack_Button"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Market Order Page/android.widget.ImageViewBack_Button'
+
+2024-03-01 11:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:15:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Market Order Page/android.widget.ImageViewBack_Button'
+
+2024-03-01 11:15:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:16:25 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:16:25 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:16:55 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:16:55 - [TEST_STEP][PASSED] - CurrentDate = Validation.datetime(): null
+
+2024-03-01 11:16:55 - [TEST_STEP][PASSED] - comment("The Current Date is " + CurrentDate): The Current Date is 1 Mar 2024 11:16
+
+2024-03-01 11:16:55 - [MESSAGE][INFO] - The Current Date is 1 Mar 2024 11:16
+
+2024-03-01 11:16:55 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:16:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263015553.png]]
+
+2024-03-01 11:16:55 - [TEST_STEP][FAILED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Done"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:16:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:17:26 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:17:26 - [TEST_STEP][PASSED] - data_to_excel.dealt_ammount(row, reference_id, username, base_currency, dealt_currency, amount_received): null
+
+2024-03-01 11:17:27 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/Back_Button_Currency_Exchange"), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/Back_Button_Currency_Exchange not found
+
+2024-03-01 11:17:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:17:57 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/Back_Button_Currency_Exchange not found
+
+2024-03-01 11:17:57 - [TEST_STEP][PASSED] - Utility.doubleTap(): Current device physical width is 1080
+
+2024-03-01 11:17:57 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-03-01 11:17:57 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-03-01 11:18:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"DEV OPTIONS"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:18 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:18:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"CLEAR DATA & CACHE"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:18 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:18:18 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"CLEAR DATA & CACHE"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-01 11:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-01 11:18:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Confirmation"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:19 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:18:19 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.widget.Button - YES"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Button - YES'
+
+2024-03-01 11:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Button - YES'
+
+2024-03-01 11:18:19 - [TEST_STEP][FAILED] - utilities.General_Onboarding.Onboarding_Different_User(row): com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Customise not found
+
+2024-03-01 11:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button'
+
+2024-03-01 11:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button01'
+
+2024-03-01 11:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:18:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_button02'
+
+2024-03-01 11:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:01 - [MESSAGE][WARNING] - Object Object Repository/Onboarding_Obj/Next_button03 not found
+
+2024-03-01 11:19:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Got_It_Button'
+
+2024-03-01 11:19:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Agree_Button1'
+
+2024-03-01 11:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:05 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/Log_In_Now_Button' is exist
+
+2024-03-01 11:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Log In Now'
+
+2024-03-01 11:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Existing M2UMAE user Log in here'
+
+2024-03-01 11:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:09 - [MESSAGE][PASSED] - Text 'haniftest782' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Username'
+
+2024-03-01 11:19:09 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue'
+
+2024-03-01 11:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Its Mine'
+
+2024-03-01 11:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:14 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Password'
+
+2024-03-01 11:19:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:19:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue (1)'
+
+2024-03-01 11:19:20 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/android.widget.TextView - Your Maybank2u ID is already linked to the following device' is exist
+
+2024-03-01 11:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:20 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/Proceed_Button' is exist
+
+2024-03-01 11:19:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263160558.png]]
+
+2024-03-01 11:19:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Proceed_Button'
+
+2024-03-01 11:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 11:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 11:19:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 11:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 11:19:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Set Up Later'
+
+2024-03-01 11:19:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Proceed'
+
+2024-03-01 11:19:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - OTP' is: 'Your OTP no. is 467818'
+
+2024-03-01 11:19:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_4'
+
+2024-03-01 11:19:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:19:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_6'
+
+2024-03-01 11:19:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:19:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_7'
+
+2024-03-01 11:19:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:19:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_8'
+
+2024-03-01 11:19:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:19:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_1'
+
+2024-03-01 11:19:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:19:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Button_8'
+
+2024-03-01 11:19:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-01 11:19:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OTP_Number/Enter_Image'
+
+2024-03-01 11:19:53 - [MESSAGE][PASSED] - Text 'Haniftest' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.EditText - Enter your name'
+
+2024-03-01 11:19:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue (1)'
+
+2024-03-01 11:19:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/GetCurrency'
+
+2024-03-01 11:19:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Next'
+
+2024-03-01 11:20:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/android.widget.Close_Button'
+
+2024-03-01 11:20:07 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:20:37 - [MESSAGE][WARNING] - Element 'Object Repository/Dashboard_Login/User_name' not found
+
+2024-03-01 11:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:21:07 - [MESSAGE][FAILED] - Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Customise not found
+
+2024-03-01 11:21:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:21:37 - [MESSAGE][WARNING] - Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions not found
+
+2024-03-01 11:21:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:22:07 - [MESSAGE][FAILED] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+
+2024-03-01 11:22:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:22:37 - [MESSAGE][FAILED] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Simply hold and drag to rearrange the actions' not found
+
+2024-03-01 11:22:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:23:08 - [MESSAGE][FAILED] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Your current favourite actions' not found
+
+2024-03-01 11:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:23:08 - [MESSAGE][WARNING] - Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Save Changes' not found
+
+2024-03-01 11:23:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263388158.png]]
+
+2024-03-01 11:23:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:23:38 - [MESSAGE][FAILED] - Object Object Repository/Mange_Quick_Actions/android.widget.Remove_Image not found
+
+2024-03-01 11:23:39 - [MESSAGE][PASSED] - Swiped from 271,1,756 to 0,0
+
+2024-03-01 11:23:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263419811.png]]
+
+2024-03-01 11:23:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:24:10 - [MESSAGE][FAILED] - Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Currency Exchange not found
+
+2024-03-01 11:24:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:24:40 - [MESSAGE][FAILED] - Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Save Changes not found
+
+2024-03-01 11:24:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263480457.png]]
+
+2024-03-01 11:24:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:25:10 - [MESSAGE][FAILED] - Element 'Object Repository/Quick_Action/android.widget.TextView - Currency Exchange' not found
+
+2024-03-01 11:25:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:25:41 - [MESSAGE][FAILED] - Object Object Repository/Quick_Action/android.widget.TextView - Currency Exchange not found
+
+2024-03-01 11:25:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:26:11 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:26:11 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Mange_Quick_Actions/android.widget.TextView - Customise not found
+
+2024-03-01 11:26:11 - [TEST_STEP][PASSED] - username = findTestData("Dealt_MYR_SGD").getValue("Username", row): null
+
+2024-03-01 11:26:11 - [TEST_STEP][PASSED] - base_currency = findTestData("Dealt_MYR_SGD").getValue("Base_Currency", row): null
+
+2024-03-01 11:26:11 - [TEST_STEP][PASSED] - dealt_currency = findTestData("Dealt_MYR_SGD").getValue("Dealt_Currency", row): null
+
+2024-03-01 11:26:11 - [TEST_STEP][PASSED] - checkLinkedDevice = Validation.checkElementExists("Object Repository/Market Order Page/android.widget.TextView - Enter your password"): Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' not found
+
+2024-03-01 11:26:41 - [MESSAGE][WARNING] - Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' not found
+
+2024-03-01 11:26:41 - [TEST_STEP][PASSED] - if (checkLinkedDevice == true): null
+
+2024-03-01 11:26:41 - [TEST_STEP][PASSED] - else: null
+
+2024-03-01 11:26:41 - [TEST_STEP][PASSED] - CONTINUE_ON_FAILURE: null
+
+2024-03-01 11:26:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-03-01 11:26:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-03-01 11:26:51 - [TEST_STEP][FAILED] - utilities.Deal_Agregator.MarketOrder_FromDropdown(findTestData("Different_User").getValue("Base_Currency", row)): com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:26:56 - [MESSAGE][WARNING] - Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.TextView - Convert_Dropdown not found
+
+2024-03-01 11:27:01 - [MESSAGE][WARNING] - Object Object Repository/SOW2-Market Order/Convert_Dropdown/android.view.View - Select Currency not found
+
+2024-03-01 11:27:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency'
+
+2024-03-01 11:27:04 - [MESSAGE][PASSED] - Text 'SGD' has been set to element 'Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency'
+
+2024-03-01 11:27:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:27:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:27:14 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:27:14 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:27:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-03-01 11:27:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-03-01 11:27:24 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.TextView _EditText"), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.TextView _EditText not found
+
+2024-03-01 11:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:27:54 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.TextView _EditText not found
+
+2024-03-01 11:27:54 - [TEST_STEP][PASSED] - digits = "5000": null
+
+2024-03-01 11:27:54 - [TEST_STEP][PASSED] - Currency_Calculator.Currency_Numpad(digits): Object Object Repository/Calc_Pad/android.widget.Image not found
+
+2024-03-01 11:27:59 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 5 not found
+
+2024-03-01 11:28:05 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-01 11:28:10 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-01 11:28:15 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-01 11:28:20 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.Image not found
+
+2024-03-01 11:28:20 - [TEST_STEP][FAILED] - utilities.Deal_Agregator.sow2market_orderdropdown(findTestData("Different_User").getValue("Dealt_Currency", row)): com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SOW2-Market Order/Select_Currency Dropdown not found
+
+2024-03-01 11:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:28:50 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/Select_Currency Dropdown not found
+
+2024-03-01 11:28:55 - [MESSAGE][WARNING] - Object Object Repository/SOW2-Market Order/android.view.View - Select Currency not found
+
+2024-03-01 11:29:00 - [MESSAGE][FAILED] - Element 'Object Repository/SOW2-Market Order/android.view.View - Select Currency' not found
+
+2024-03-01 11:29:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency'
+
+2024-03-01 11:29:03 - [MESSAGE][PASSED] - Text 'USD' has been set to element 'Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency'
+
+2024-03-01 11:29:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:29:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:29:14 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:29:14 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SOW2-Market Order/Select_Currency Dropdown not found
+
+2024-03-01 11:29:14 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Exchange rate"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:29:19 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:29:19 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:29:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263759254.png]]
+
+2024-03-01 11:29:19 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Next"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:29:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:29:49 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:29:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Step 2 of 2"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:29:54 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:29:54 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Step 2 of 2"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:29:59 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:29:59 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:30:00 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263799880.png]]
+
+2024-03-01 11:30:00 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Get Quote"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:30:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:30:30 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:30:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Confirmation"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:30:35 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:30:35 - [TEST_STEP][PASSED] - comment("Confirmation Page"): Confirmation Page
+
+2024-03-01 11:30:35 - [MESSAGE][INFO] - Confirmation Page
+
+2024-03-01 11:30:35 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Amount to receive"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:30:40 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:30:40 - [TEST_STEP][PASSED] - takeScreenshot(CONTINUE_ON_FAILURE): Screenshot is taken
+
+2024-03-01 11:30:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263840757.png]]
+
+2024-03-01 11:30:41 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer"), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer not found
+
+2024-03-01 11:30:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:31:11 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer not found
+
+2024-03-01 11:31:11 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom(): utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:31:11 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-03-01 11:31:11 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-03-01 11:31:12 - [MESSAGE][PASSED] - Swiped from 540,1,496 to 540,641
+
+2024-03-01 11:31:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:31:17 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:31:17 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Confirm"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:31:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:31:47 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/android.widget.Dynamic_Button not found
+
+2024-03-01 11:31:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:31:52 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:31:52 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:31:57 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:31:57 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Reference ID"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:31:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:32:27 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:32:27 - [TEST_STEP][FAILED] - reference_id = getText(findTestObject("Market Order Page/android.widget.TextView - Reference ID"), 5, CONTINUE_ON_FAILURE): Object Object Repository/Market Order Page/android.widget.TextView - Reference ID not found
+
+2024-03-01 11:32:32 - [MESSAGE][FAILED] - Object Object Repository/Market Order Page/android.widget.TextView - Reference ID not found
+
+2024-03-01 11:32:32 - [TEST_STEP][FAILED] - amount_received = getText(findTestObject("transaction_successful/Amount received"), 5, CONTINUE_ON_FAILURE): Object Object Repository/transaction_successful/Amount received not found
+
+2024-03-01 11:32:37 - [MESSAGE][FAILED] - Object Object Repository/transaction_successful/Amount received not found
+
+2024-03-01 11:32:37 - [TEST_STEP][PASSED] - comment(reference_id): 
+
+2024-03-01 11:32:37 - [MESSAGE][INFO] - 
+
+2024-03-01 11:32:37 - [TEST_STEP][PASSED] - takeScreenshot(CONTINUE_ON_FAILURE): Screenshot is taken
+
+2024-03-01 11:32:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709263957954.png]]
+
+2024-03-01 11:32:38 - [TEST_STEP][FAILED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Share Receipt"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:33:08 - [MESSAGE][FAILED] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:33:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-03-01 11:33:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-03-01 11:33:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Currency Exchange"]), 5, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:33:23 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:33:23 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Completed"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:33:28 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:33:28 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:33:28 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264008690.png]]
+
+2024-03-01 11:33:28 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom(): utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:33:29 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-03-01 11:33:29 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-03-01 11:33:30 - [MESSAGE][PASSED] - Swiped from 540,1,496 to 540,641
+
+2024-03-01 11:33:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:33:35 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-03-01 11:33:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-03-01 11:33:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-03-01 11:33:40 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:33:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264020239.png]]
+
+2024-03-01 11:33:40 - [TEST_STEP][FAILED] - tap(findTestObject("Market Order Page/android.widget.ImageViewBack_Button"), 0, CONTINUE_ON_FAILURE): Object Object Repository/Market Order Page/android.widget.ImageViewBack_Button not found
+
+2024-03-01 11:33:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:34:10 - [MESSAGE][FAILED] - Object Object Repository/Market Order Page/android.widget.ImageViewBack_Button not found
+
+2024-03-01 11:34:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 0, CONTINUE_ON_FAILURE): Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:34:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:34:40 - [MESSAGE][WARNING] - Object Object Repository/Global Account Page/dynamicText not found
+
+2024-03-01 11:34:40 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:34:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:35:10 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-03-01 11:35:10 - [TEST_STEP][PASSED] - CurrentDate = Validation.datetime(): null
+
+2024-03-01 11:35:10 - [TEST_STEP][PASSED] - comment("The Current Date is " + CurrentDate): The Current Date is 1 Mar 2024 11:35
+
+2024-03-01 11:35:10 - [MESSAGE][INFO] - The Current Date is 1 Mar 2024 11:35
+
+2024-03-01 11:35:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-01 11:35:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264110985.png]]
+
+2024-03-01 11:35:11 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Done"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-01 11:35:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:35:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-01 11:35:11 - [TEST_STEP][PASSED] - data_to_excel.dealt_ammount(row, reference_id, username, base_currency, dealt_currency, amount_received): null
+
+2024-03-01 11:35:11 - [TEST_STEP][FAILED] - tap(findTestObject("SOW2-Market Order/Back_Button_Currency_Exchange"), 0, CONTINUE_ON_FAILURE): Object Object Repository/SOW2-Market Order/Back_Button_Currency_Exchange not found
+
+2024-03-01 11:35:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:35:41 - [MESSAGE][FAILED] - Object Object Repository/SOW2-Market Order/Back_Button_Currency_Exchange not found
+
+2024-03-01 11:35:41 - [TEST_STEP][PASSED] - Utility.doubleTap(): Current device physical width is 1080
+
+2024-03-01 11:35:41 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-03-01 11:35:41 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-03-01 11:36:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"DEV OPTIONS"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:03 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:36:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"CLEAR DATA & CACHE"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:03 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:36:03 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"CLEAR DATA & CACHE"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-01 11:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-01 11:36:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Confirmation"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:04 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-03-01 11:36:04 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.widget.Button - YES"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Button - YES'
+
+2024-03-01 11:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Button - YES'
+
+2024-03-01 11:36:04 - [TEST_STEP][ERROR] - utilities.General_Onboarding.Onboarding_Different_User(row): Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709262009190.run(TempTestSuite1709262009190.groovy:36)
+Caused by: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at java_lang_String$replace$1.call(Unknown Source)
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-03-01 11:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button'
+
+2024-03-01 11:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button01'
+
+2024-03-01 11:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_button02'
+
+2024-03-01 11:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:40 - [MESSAGE][WARNING] - Object Object Repository/Onboarding_Obj/Next_button03 not found
+
+2024-03-01 11:36:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Got_It_Button'
+
+2024-03-01 11:36:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Agree_Button1'
+
+2024-03-01 11:36:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:44 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/Log_In_Now_Button' is exist
+
+2024-03-01 11:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Log In Now'
+
+2024-03-01 11:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Existing M2UMAE user Log in here'
+
+2024-03-01 11:36:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:48 - [MESSAGE][PASSED] - Text 'retailfx1' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Username'
+
+2024-03-01 11:36:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue'
+
+2024-03-01 11:36:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Its Mine'
+
+2024-03-01 11:36:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:52 - [MESSAGE][PASSED] - Text 'Pass@1122' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Password'
+
+2024-03-01 11:36:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 11:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue (1)'
+
+2024-03-01 11:36:56 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/android.widget.TextView - Your Maybank2u ID is already linked to the following device' is exist
+
+2024-03-01 11:36:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:57 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/Proceed_Button' is exist
+
+2024-03-01 11:36:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_110009/SOW2/Test on Different User/20240301_110009/1709264217035.png]]
+
+2024-03-01 11:36:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Proceed_Button'
+
+2024-03-01 11:36:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:36:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 11:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 11:37:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 11:37:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 11:37:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 11:37:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Set Up Later'
+
+2024-03-01 11:37:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Proceed'
+
+2024-03-01 11:37:10 - [MESSAGE][WARNING] - Object Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - OTP not found
+
+2024-03-01 11:37:10 - [MESSAGE][ERROR] - Cannot invoke method replace() on null object
+
+2024-03-01 11:37:10 - [MESSAGE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709262009190.run(TempTestSuite1709262009190.groovy:36)
+Caused by: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at java_lang_String$replace$1.call(Unknown Source)
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2024-03-01 11:00:12 - [TEST_CASE][FAILED] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:384)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709262009190.run(TempTestSuite1709262009190.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-03-01 11:00:12 - [TEST_SUITE][FAILED] - Test on Different User: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:384)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709262009190.run(TempTestSuite1709262009190.groovy:36)]]></system-out>
+      <system-err><![CDATA[2024-03-01 11:00:12 - [TEST_SUITE][FAILED] - Test on Different User: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Mange_Quick_Actions/android.widget.TextView - Manage Quick Actions' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:384)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709262009190.run(TempTestSuite1709262009190.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

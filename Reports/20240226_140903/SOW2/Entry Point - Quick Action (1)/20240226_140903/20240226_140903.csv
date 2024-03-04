@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Entry Point - Quick Action (1),,,,2024-02-26 14:09:06,2024-02-26 14:11:21,2m - 14.295s,FAILED
+,,,,,,,
+Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR,,,,2024-02-26 14:09:07,2024-02-26 14:11:21,2m - 13.875s,FAILED
+"startExistingApplication(""com.maybank2u.life.uat"")",,,,2024-02-26 14:09:07,2024-02-26 14:09:19,11.428s,PASSED
+a = 8,,,,2024-02-26 14:09:19,2024-02-26 14:09:19,0.003s,PASSED
+"tap(findTestObject(""Global Account Page/dynamicText"", [""text"":findTestData(""Username_Password"").getValue(""G1A_Account_No"", a)]), 0, CONTINUE_ON_FAILURE)",,Select G1A Account,,2024-02-26 14:09:19,2024-02-26 14:09:20,1.476s,PASSED
+"tap(findTestObject(""Global Account Page/dynamicText"", [""text"":""Convert Currency""]), 0, CONTINUE_ON_FAILURE)",,Tap on Convert Currency,,2024-02-26 14:09:20,2024-02-26 14:09:20,0.214s,PASSED
+"checkLinkedDevice = Validation.checkElementExists(""Object Repository/Market Order Page/android.widget.TextView - Enter your password"")",,Check for the 1st Login,,2024-02-26 14:09:20,2024-02-26 14:09:23,3.000s,PASSED
+if (checkLinkedDevice == true),,Check is there is password page,,2024-02-26 14:09:23,2024-02-26 14:09:28,4.399s,PASSED
+delay(5),,,,2024-02-26 14:09:28,2024-02-26 14:09:33,5.038s,PASSED
+"comment(""TC039 - Validate user able to search for the currency"")",,,,2024-02-26 14:09:33,2024-02-26 14:09:33,0.026s,PASSED
+"utilities.Market_Order.MarketOrder_FromDropdown(""US Dol"", ""USD - US Dollar"")",,,,2024-02-26 14:09:33,2024-02-26 14:09:39,6.417s,PASSED
+delay(10),,,,2024-02-26 14:09:39,2024-02-26 14:09:49,10.013s,PASSED
+"tap(findTestObject(""SOW2-Market Order/android.widget.TextView _EditText""), 0, CONTINUE_ON_FAILURE)",,Tap on the Im converting,,2024-02-26 14:09:49,2024-02-26 14:09:50,0.310s,PASSED
+"digits = ""1000""",,,,2024-02-26 14:09:50,2024-02-26 14:09:50,0.000s,PASSED
+Currency_Calculator.Currency_Numpad(digits),,,,2024-02-26 14:09:50,2024-02-26 14:09:54,4.130s,PASSED
+"utilities.Mobile_Keywords.sow2market_orderdropdown(""MYR"", ""MYR - Malaysian Ringgit"")",,Verify Select Currency Page,,2024-02-26 14:09:54,2024-02-26 14:09:59,4.962s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Exchange rate""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:09:59,2024-02-26 14:10:00,0.973s,PASSED
+"currency_TextMsg = getText(findTestObject(""General/android.widget.TextView _Conversion""), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:00,2024-02-26 14:10:00,0.120s,PASSED
+roundedNumber = Validation.convertMYRtoUSD(currency_TextMsg),,,,2024-02-26 14:10:00,2024-02-26 14:10:00,0.044s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Conversion fee""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:00,2024-02-26 14:10:00,0.088s,PASSED
+"Conversion_Fee = getText(findTestObject(""SOW2-Market Order/ConversionFee_Text""), 5, CONTINUE_ON_FAILURE)",,get Conversion Fee,,2024-02-26 14:10:00,2024-02-26 14:10:00,0.116s,PASSED
+"verifyElementExist(findTestObject(""General/android.widget.EditText _AmountReceived"", [""text"":roundedNumber]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:00,2024-02-26 14:10:05,5.113s,FAILED
+takeScreenshot(),,,,2024-02-26 14:10:05,2024-02-26 14:10:06,0.457s,PASSED
+"tap(findTestObject(""SOW2-Market Order/android.widget.Dynamic_Button"", [""text"":""Next""]), 0, CONTINUE_ON_FAILURE)",,Tap Next,,2024-02-26 14:10:06,2024-02-26 14:10:06,0.304s,PASSED
+"waitForElementPresent(findTestObject(""Global Account Page/dynamicText"", [""text"":""Step 2 of 2""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:06,2024-02-26 14:10:07,1.366s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Step 2 of 2""]), 5, CONTINUE_ON_FAILURE)",,Verify Account Selection Page,,2024-02-26 14:10:07,2024-02-26 14:10:07,0.165s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""USD/MYR""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:07,2024-02-26 14:10:08,0.136s,PASSED
+utilities.Mobile_Keywords.scrollFromTopToBottom(),,,,2024-02-26 14:10:08,2024-02-26 14:10:14,6.762s,PASSED
+takeScreenshot(),,,,2024-02-26 14:10:14,2024-02-26 14:10:15,0.535s,PASSED
+"tap(findTestObject(""SOW2-Market Order/android.widget.Dynamic_Button"", [""text"":""Get Quote""]), 0, CONTINUE_ON_FAILURE)",,Tap to get qoute,,2024-02-26 14:10:15,2024-02-26 14:10:15,0.184s,PASSED
+"waitForElementPresent(findTestObject(""Global Account Page/dynamicText"", [""text"":""Confirmation""]), 5, CONTINUE_ON_FAILURE)",,Wait for confirmation page to show,,2024-02-26 14:10:15,2024-02-26 14:10:17,1.458s,PASSED
+"comment(""Confirmation Page"")",,,,2024-02-26 14:10:17,2024-02-26 14:10:17,0.002s,PASSED
+"currency_TextMsg2 = getText(findTestObject(""General/android.widget.TextView _Conversion""), 0, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:17,2024-02-26 14:10:19,1.977s,PASSED
+roundedNumber2 = Validation.convertMYRtoUSD(currency_TextMsg2),,,,2024-02-26 14:10:19,2024-02-26 14:10:19,0.001s,PASSED
+"comment(""the total amount received"" + roundedNumber2)",,,,2024-02-26 14:10:19,2024-02-26 14:10:19,0.004s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Amount to receive""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:19,2024-02-26 14:10:19,0.121s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""MYR"" + roundedNumber2]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:19,2024-02-26 14:10:24,5.152s,FAILED
+takeScreenshot(CONTINUE_ON_FAILURE),,,,2024-02-26 14:10:24,2024-02-26 14:10:24,0.496s,PASSED
+"tap(findTestObject(""SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer""), 0, CONTINUE_ON_FAILURE)",,Confirm Term & Condition,,2024-02-26 14:10:24,2024-02-26 14:10:25,0.590s,PASSED
+utilities.Mobile_Keywords.scrollFromTopToBottom(),,,,2024-02-26 14:10:25,2024-02-26 14:10:32,6.722s,PASSED
+"tap(findTestObject(""SOW2-Market Order/android.widget.Dynamic_Button"", [""text"":""Confirm""]), 0, CONTINUE_ON_FAILURE)",,Tap Confirm button,,2024-02-26 14:10:32,2024-02-26 14:10:32,0.224s,PASSED
+"waitForElementPresent(findTestObject(""Global Account Page/dynamicText"", [""text"":""Transaction Successful""]), 5, CONTINUE_ON_FAILURE)",,Transaction Successful,,2024-02-26 14:10:32,2024-02-26 14:10:39,7.077s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Transaction Successful""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:39,2024-02-26 14:10:39,0.102s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Reference ID""]), 0, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:39,2024-02-26 14:10:39,0.083s,PASSED
+"reference_id = getText(findTestObject(""Market Order Page/android.widget.TextView - Reference ID""), 5, CONTINUE_ON_FAILURE)",,Get ReferenceID,,2024-02-26 14:10:39,2024-02-26 14:10:39,0.101s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""MYR "" + roundedNumber2]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:39,2024-02-26 14:10:44,5.064s,FAILED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Done""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:44,2024-02-26 14:10:44,0.104s,PASSED
+takeScreenshot(CONTINUE_ON_FAILURE),,,,2024-02-26 14:10:44,2024-02-26 14:10:45,0.422s,PASSED
+"tap(findTestObject(""Global Account Page/dynamicText"", [""text"":""Share Receipt""]), 0, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:45,2024-02-26 14:10:45,0.152s,PASSED
+delay(10),,,,2024-02-26 14:10:45,2024-02-26 14:10:55,10.018s,PASSED
+"waitForElementPresent(findTestObject(""Global Account Page/dynamicText"", [""text"":""Currency Exchange""]), 5, CONTINUE_ON_FAILURE)",,Wait for Share Receipt to show,,2024-02-26 14:10:55,2024-02-26 14:10:55,0.186s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Completed""]), 5, CONTINUE_ON_FAILURE)",,Receipt show successful,,2024-02-26 14:10:55,2024-02-26 14:10:55,0.107s,PASSED
+takeScreenshot(),,,,2024-02-26 14:10:55,2024-02-26 14:10:56,0.450s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""From account""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:56,2024-02-26 14:10:56,0.087s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Global Access Account-i (USD)
+
+9000 0002 1160""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:10:56,2024-02-26 14:11:01,5.135s,FAILED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""To account""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:01,2024-02-26 14:11:01,0.154s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Global Access Account-i (MYR)
+
+9000 0002 1160""]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:01,2024-02-26 14:11:06,5.070s,FAILED
+utilities.Mobile_Keywords.scrollFromTopToBottom(),,,,2024-02-26 14:11:06,2024-02-26 14:11:13,6.766s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":Conversion_Fee]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:13,2024-02-26 14:11:13,0.138s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""MYR "" + roundedNumber2]), 5, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:13,2024-02-26 14:11:18,5.072s,FAILED
+takeScreenshot(),,,,2024-02-26 14:11:18,2024-02-26 14:11:19,0.476s,PASSED
+"tap(findTestObject(""Market Order Page/android.widget.ImageViewBack_Button""), 0, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:19,2024-02-26 14:11:19,0.230s,PASSED
+"waitForElementPresent(findTestObject(""Global Account Page/dynamicText"", [""text"":""Transaction Successful""]), 0, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:19,2024-02-26 14:11:20,0.997s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Transaction Successful""]), 0, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:20,2024-02-26 14:11:20,0.098s,PASSED
+takeScreenshot(),,,,2024-02-26 14:11:20,2024-02-26 14:11:20,0.412s,PASSED
+"tap(findTestObject(""Global Account Page/dynamicText"", [""text"":""Done""]), 0, CONTINUE_ON_FAILURE)",,,,2024-02-26 14:11:20,2024-02-26 14:11:21,0.150s,PASSED

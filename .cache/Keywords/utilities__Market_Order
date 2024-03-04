@@ -1,0 +1,87 @@
+{
+  "keywordFileContentHash": "D686805295187FCFB4B839F0E6882FFF",
+  "keywordClasses": [
+    {
+      "name": "utilities.Market_Order",
+      "keywordMethods": [
+        {
+          "name": "MarketOrder",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Account_Selection",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Confirmation_Page",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Transaction_Page",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Transcript_Receipt",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Currency_Numpad",
+          "parameters": [
+            {
+              "name": "digits",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "MarketOrder_FromDropdown",
+          "parameters": [
+            {
+              "name": "Currency",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "Currency_name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

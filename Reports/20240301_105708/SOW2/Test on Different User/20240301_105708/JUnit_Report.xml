@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test on Different User" time="122.62" tests="1" failures="0" errors="1">
+   <testsuite name="Test on Different User" tests="1" failures="0" errors="1" time="122.62" skipped="0" timestamp="2024-03-01 10:57:12" hostname="00145409nuralianatasha - localhost" id="Test Suites/SOW2/Test on Different User">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_105708/SOW2/Test on Different User/20240301_105708"/>
+         <property name="logFiles" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_105708/SOW2/Test on Different User/20240301_105708/execution0.log, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240301_105708/SOW2/Test on Different User/20240301_105708/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="00145409nuralianatasha - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD" time="122.2" classname="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD" status="ERROR">
+         <error type="ERROR" message="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)
+"/>
+         <system-out><![CDATA[2024-03-01 10:57:13 - [TEST_CASE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)
+
+
+2024-03-01 10:57:13 - [TEST_STEP][PASSED] - startExistingApplication("com.maybank2u.life.uat"): Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-03-01 10:57:14 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '']
+
+2024-03-01 10:57:14 - [MESSAGE][INFO] - User set preference: ['autoGrantPermission', 'true']
+
+2024-03-01 10:57:14 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2024-03-01 10:57:14 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2024-03-01 10:57:14 - [MESSAGE][INFO] - User set preference: ['newCommandTimeout', '10000']
+
+2024-03-01 10:57:14 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/20.2.0/bin/node"
+
+2024-03-01 10:57:15 - [MESSAGE][INFO] - Appium server started on port 52,389
+
+2024-03-01 10:57:26 - [MESSAGE][PASSED] - Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-03-01 10:57:26 - [TEST_STEP][ERROR] - for ([row = 1, row <= findTestData("Different_User").getRowNumbers(), (row++)]): Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)
+Caused by: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-03-01 10:57:26 - [TEST_STEP][ERROR] - utilities.General_Onboarding.Onboarding_Different_User(row): Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)
+Caused by: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-03-01 10:57:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:57:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button'
+
+2024-03-01 10:57:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:57:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_Button01'
+
+2024-03-01 10:57:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:57:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Next_button02'
+
+2024-03-01 10:57:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:03 - [MESSAGE][WARNING] - Object Object Repository/Onboarding_Obj/Next_button03 not found
+
+2024-03-01 10:58:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Got_It_Button'
+
+2024-03-01 10:58:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Onboarding_Obj/Agree_Button1'
+
+2024-03-01 10:58:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:08 - [MESSAGE][PASSED] - Element 'Object Repository/Onboarding_Obj/Log_In_Now_Button' is exist
+
+2024-03-01 10:58:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Log In Now'
+
+2024-03-01 10:58:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Existing M2UMAE user Log in here'
+
+2024-03-01 10:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:24 - [MESSAGE][PASSED] - Text 'retailfx5' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Username'
+
+2024-03-01 10:58:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 10:58:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue'
+
+2024-03-01 10:58:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Its Mine'
+
+2024-03-01 10:58:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:29 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Password'
+
+2024-03-01 10:58:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-01 10:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:58:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Continue (1)'
+
+2024-03-01 10:59:02 - [MESSAGE][WARNING] - Element 'Object Repository/Onboarding_Obj/android.widget.TextView - Your Maybank2u ID is already linked to the following device' not found
+
+2024-03-01 10:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:59:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 10:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-01 10:59:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 10:59:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Your PIN no. is 111111'
+
+2024-03-01 10:59:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.ImageView'
+
+2024-03-01 10:59:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Set Up Later'
+
+2024-03-01 10:59:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - Yes, Proceed'
+
+2024-03-01 10:59:15 - [MESSAGE][WARNING] - Object Object Repository/Dashboard_Login/Onboarding_Login/android.widget.TextView - OTP not found
+
+2024-03-01 10:59:15 - [MESSAGE][ERROR] - Cannot invoke method replace() on null object
+
+2024-03-01 10:59:15 - [MESSAGE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)
+Caused by: java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2024-03-01 10:57:13 - [TEST_CASE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-03-01 10:57:12 - [TEST_SUITE][ERROR] - Test on Different User: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)]]></system-out>
+      <system-err><![CDATA[2024-03-01 10:57:12 - [TEST_SUITE][ERROR] - Test on Different User: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at utilities.General_Onboarding.Onboarding_Different_User(General_Onboarding.groovy:320)
+	at utilities.General_Onboarding.invokeMethod(General_Onboarding.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at E2E - different User Covert from SGD to USD.run(E2E - different User Covert from SGD to USD:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709261828906.run(TempTestSuite1709261828906.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

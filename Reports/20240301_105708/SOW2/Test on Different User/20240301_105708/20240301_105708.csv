@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test on Different User,,,,2024-03-01 10:57:12,2024-03-01 10:59:15,2m - 2.620s,ERROR
+,,,,,,,
+Test Cases/RETAILFX-SOW2 Market Order/E2E - different User Covert from SGD to USD,,,,2024-03-01 10:57:13,2024-03-01 10:59:15,2m - 2.200s,ERROR
+"startExistingApplication(""com.maybank2u.life.uat"")",,,,2024-03-01 10:57:13,2024-03-01 10:57:26,12.152s,PASSED
+"for ([row = 1, row <= findTestData(""Different_User"").getRowNumbers(), (row++)])",,,,2024-03-01 10:57:26,2024-03-01 10:59:15,1m - 49.351s,ERROR

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Convert dropdown have the latest bucket currency</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8afd36b-a453-4969-a460-8263e3072591</testCaseGuid>
+</TestCaseEntity>

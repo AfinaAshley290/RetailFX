@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Entry Point - Quick Action (1)" time="149.54" tests="1" failures="1" errors="0">
+   <testsuite name="Entry Point - Quick Action (1)" tests="1" failures="1" errors="0" time="149.54" skipped="0" timestamp="2024-03-04 14:25:35" hostname="00145409nuralianatasha - 192.168.1.109" id="Test Suites/SOW2/Entry Point - Quick Action (1)">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240304_142527/SOW2/Entry Point - Quick Action (1)/20240304_142527"/>
+         <property name="logFiles" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240304_142527/SOW2/Entry Point - Quick Action (1)/20240304_142527/execution0.log, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240304_142527/SOW2/Entry Point - Quick Action (1)/20240304_142527/appium.log"/>
+         <property name="attachments" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240304_142527/SOW2/Entry Point - Quick Action (1)/20240304_142527/1709533592218.png"/>
+         <property name="hostName" value="00145409nuralianatasha - 192.168.1.109"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="192.168.1.109"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page" time="149.074" classname="Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/General/android.widget.TextView - ConversionGBP not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1258)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$6.call(Unknown Source)
+	at SOW2 - Change Currency Country From and country to in Confirmation page.run(SOW2 - Change Currency Country From and country to in Confirmation page:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709533527786.run(TempTestSuite1709533527786.groovy:36)
+"/>
+         <system-out><![CDATA[2024-03-04 14:25:36 - [TEST_CASE][FAILED] - Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page: Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/General/android.widget.TextView - ConversionGBP not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1258)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$6.call(Unknown Source)
+	at SOW2 - Change Currency Country From and country to in Confirmation page.run(SOW2 - Change Currency Country From and country to in Confirmation page:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709533527786.run(TempTestSuite1709533527786.groovy:36)
+
+
+2024-03-04 14:25:37 - [TEST_STEP][PASSED] - startExistingApplication("com.maybank2u.life.uat"): Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-03-04 14:25:37 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '']
+
+2024-03-04 14:25:37 - [MESSAGE][INFO] - User set preference: ['autoGrantPermission', 'true']
+
+2024-03-04 14:25:37 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2024-03-04 14:25:37 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2024-03-04 14:25:37 - [MESSAGE][INFO] - User set preference: ['newCommandTimeout', '10000']
+
+2024-03-04 14:25:37 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/20.2.0/bin/node"
+
+2024-03-04 14:25:38 - [MESSAGE][INFO] - Appium server started on port 61,654
+
+2024-03-04 14:25:53 - [MESSAGE][PASSED] - Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-03-04 14:25:53 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2024-03-04 14:26:08 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2024-03-04 14:26:08 - [TEST_STEP][PASSED] - a = 8: null
+
+2024-03-04 14:26:08 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":findTestData("Username_Password").getValue("G1A_Account_No", a)]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:26:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-04 14:26:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:26:10 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2024-03-04 14:26:25 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2024-03-04 14:26:25 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Convert Currency"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:26:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-04 14:26:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:26:25 - [TEST_STEP][PASSED] - checkLinkedDevice = Validation.checkElementExists("Object Repository/Market Order Page/android.widget.TextView - Enter your password"): Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' is exist
+
+2024-03-04 14:26:28 - [MESSAGE][PASSED] - Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' is exist
+
+2024-03-04 14:26:28 - [TEST_STEP][PASSED] - if (checkLinkedDevice == true): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:26:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Dashboard_Login/Onboarding_Login/Password"), findTestData("Username_Password").getValue("Password", a), 0, CONTINUE_ON_FAILURE): Text 'Maybank@1' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Password'
+
+2024-03-04 14:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-04 14:26:30 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/Dashboard_Login/Onboarding_Login/Password'
+
+2024-03-04 14:26:30 - [TEST_STEP][PASSED] - hideKeyboard(CONTINUE_ON_FAILURE): Keyboard is hidden
+
+2024-03-04 14:26:32 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-04 14:26:32 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-03-04 14:26:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240304_142527/SOW2/Entry Point - Quick Action (1)/20240304_142527/1709533592218.png]]
+
+2024-03-04 14:26:32 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Continue"]), 10, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:26:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:26:32 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2024-03-04 14:26:47 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2024-03-04 14:26:47 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.widget.TextView _EditText"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.widget.TextView _EditText'
+
+2024-03-04 14:26:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-04 14:26:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.TextView _EditText'
+
+2024-03-04 14:26:48 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2024-03-04 14:27:03 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2024-03-04 14:27:03 - [TEST_STEP][PASSED] - digits = "5000": null
+
+2024-03-04 14:27:03 - [TEST_STEP][PASSED] - Currency_Calculator.Currency_Numpad(digits): Object Object Repository/Calc_Pad/android.widget.Image not found
+
+2024-03-04 14:27:08 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 5 not found
+
+2024-03-04 14:27:14 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-04 14:27:19 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-04 14:27:24 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.TextView - 0 not found
+
+2024-03-04 14:27:29 - [MESSAGE][WARNING] - Object Object Repository/Calc_Pad/android.widget.Image not found
+
+2024-03-04 14:27:29 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.sow2market_orderdropdown("USD", "USD - US Dollar"): utilities.Mobile_Keywords.sow2market_orderdropdown is PASSED
+
+2024-03-04 14:27:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-04 14:27:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/Select_Currency Dropdown'
+
+2024-03-04 14:27:31 - [MESSAGE][PASSED] - Element 'Object Repository/SOW2-Market Order/android.view.View - Select Currency' is present
+
+2024-03-04 14:27:31 - [MESSAGE][PASSED] - Element 'Object Repository/SOW2-Market Order/android.view.View - Select Currency' is exist
+
+2024-03-04 14:27:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency'
+
+2024-03-04 14:27:32 - [MESSAGE][PASSED] - Text 'USD' has been set to element 'Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency'
+
+2024-03-04 14:27:33 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-03-04 14:27:33 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-03-04 14:27:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-03-04 14:27:34 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.sow2market_orderdropdown is PASSED
+
+2024-03-04 14:27:34 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Exchange rate"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-03-04 14:27:34 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-03-04 14:27:34 - [TEST_STEP][FAILED] - currency_TextMsg = getText(findTestObject("General/android.widget.TextView - ConversionGBP"), 0, CONTINUE_ON_FAILURE): Object Object Repository/General/android.widget.TextView - ConversionGBP not found
+
+2024-03-04 14:27:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-04 14:28:05 - [MESSAGE][FAILED] - Object Object Repository/General/android.widget.TextView - ConversionGBP not found
+
+2024-03-04 14:28:05 - [TEST_STEP][PASSED] - println("This is" + currency_TextMsg): null
+
+2024-03-04 14:28:05 - [TEST_STEP][ERROR] - currency_TextMsg = currency_TextMsg.replace("GBP 1 = MYR ", ""): Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at SOW2 - Change Currency Country From and country to in Confirmation page.run(SOW2 - Change Currency Country From and country to in Confirmation page:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709533527786.run(TempTestSuite1709533527786.groovy:36)
+
+
+2024-03-04 14:28:05 - [MESSAGE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method replace() on null object
+	at SOW2 - Change Currency Country From and country to in Confirmation page.run(SOW2 - Change Currency Country From and country to in Confirmation page:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709533527786.run(TempTestSuite1709533527786.groovy:36)]]></system-out>
+         <system-err><![CDATA[2024-03-04 14:25:36 - [TEST_CASE][FAILED] - Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page: Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/General/android.widget.TextView - ConversionGBP not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1258)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$6.call(Unknown Source)
+	at SOW2 - Change Currency Country From and country to in Confirmation page.run(SOW2 - Change Currency Country From and country to in Confirmation page:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709533527786.run(TempTestSuite1709533527786.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-03-04 14:25:35 - [TEST_SUITE][FAILED] - Entry Point - Quick Action (1): Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/General/android.widget.TextView - ConversionGBP not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1258)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$6.call(Unknown Source)
+	at SOW2 - Change Currency Country From and country to in Confirmation page.run(SOW2 - Change Currency Country From and country to in Confirmation page:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709533527786.run(TempTestSuite1709533527786.groovy:36)]]></system-out>
+      <system-err><![CDATA[2024-03-04 14:25:35 - [TEST_SUITE][FAILED] - Entry Point - Quick Action (1): Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/General/android.widget.TextView - ConversionGBP not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1258)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$6.call(Unknown Source)
+	at SOW2 - Change Currency Country From and country to in Confirmation page.run(SOW2 - Change Currency Country From and country to in Confirmation page:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709533527786.run(TempTestSuite1709533527786.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

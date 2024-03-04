@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test on Different User" time="13.038" tests="1" failures="0" errors="1">
+   <testsuite name="Test on Different User" tests="1" failures="0" errors="1" time="13.038" skipped="0" timestamp="2024-02-28 11:07:11" hostname="00145409nuralianatasha - localhost" id="Test Suites/SOW2/Test on Different User">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240228_110708/SOW2/Test on Different User/20240228_110708"/>
+         <property name="logFiles" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240228_110708/SOW2/Test on Different User/20240228_110708/execution0.log, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240228_110708/SOW2/Test on Different User/20240228_110708/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="00145409nuralianatasha - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency" time="12.609" classname="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency" status="ERROR">
+         <error type="ERROR" message="Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+"/>
+         <system-out><![CDATA[2024-02-28 11:07:11 - [TEST_CASE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+
+
+2024-02-28 11:07:12 - [TEST_STEP][PASSED] - startExistingApplication("com.maybank2u.life.uat"): Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-02-28 11:07:12 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '']
+
+2024-02-28 11:07:12 - [MESSAGE][INFO] - User set preference: ['autoGrantPermission', 'true']
+
+2024-02-28 11:07:12 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2024-02-28 11:07:12 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2024-02-28 11:07:12 - [MESSAGE][INFO] - User set preference: ['newCommandTimeout', '10000']
+
+2024-02-28 11:07:12 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/20.2.0/bin/node"
+
+2024-02-28 11:07:13 - [MESSAGE][INFO] - Appium server started on port 50,758
+
+2024-02-28 11:07:23 - [MESSAGE][PASSED] - Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-02-28 11:07:23 - [TEST_STEP][ERROR] - for ([row = 1, row <= findTestData("Dealt_MYR_SGD").getRowNumbers(), (row++)]): Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User by Dealt Currency.run(E2E - different User by Dealt Currency:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709089628022.run(TempTestSuite1709089628022.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+
+
+2024-02-28 11:07:24 - [TEST_STEP][ERROR] - utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD(row): Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User by Dealt Currency.run(E2E - different User by Dealt Currency:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709089628022.run(TempTestSuite1709089628022.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+
+
+2024-02-28 11:07:24 - [MESSAGE][ERROR] - No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+
+2024-02-28 11:07:24 - [MESSAGE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at E2E - different User by Dealt Currency.run(E2E - different User by Dealt Currency:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1709089628022.run(TempTestSuite1709089628022.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]]]></system-out>
+         <system-err><![CDATA[2024-02-28 11:07:11 - [TEST_CASE][ERROR] - Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-28 11:07:11 - [TEST_SUITE][ERROR] - Test on Different User: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]]]></system-out>
+      <system-err><![CDATA[2024-02-28 11:07:11 - [TEST_SUITE][ERROR] - Test on Different User: Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.General_Onboarding.Onboarding_Dealt_MYR_SGD() is applicable for argument types: (java.lang.Integer) values: [1]]]></system-err>
+   </testsuite>
+</testsuites>

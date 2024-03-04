@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Entry Point - Quick Action (1),,,,2024-03-04 14:25:35,2024-03-04 14:28:05,2m - 29.540s,FAILED
+,,,,,,,
+Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Change Currency Country From and country to in Confirmation page,,,,2024-03-04 14:25:36,2024-03-04 14:28:05,2m - 29.074s,FAILED
+"startExistingApplication(""com.maybank2u.life.uat"")",,,,2024-03-04 14:25:37,2024-03-04 14:25:53,16.682s,PASSED
+delay(15),,,,2024-03-04 14:25:53,2024-03-04 14:26:08,15.094s,PASSED
+a = 8,,,,2024-03-04 14:26:08,2024-03-04 14:26:08,0.009s,PASSED
+"tap(findTestObject(""Global Account Page/dynamicText"", [""text"":findTestData(""Username_Password"").getValue(""G1A_Account_No"", a)]), 0, CONTINUE_ON_FAILURE)",,Select G1A Account,,2024-03-04 14:26:08,2024-03-04 14:26:10,1.351s,PASSED
+delay(15),,,,2024-03-04 14:26:10,2024-03-04 14:26:25,15.017s,PASSED
+"tap(findTestObject(""Global Account Page/dynamicText"", [""text"":""Convert Currency""]), 0, CONTINUE_ON_FAILURE)",,Tap on Convert Currency,,2024-03-04 14:26:25,2024-03-04 14:26:25,0.317s,PASSED
+"checkLinkedDevice = Validation.checkElementExists(""Object Repository/Market Order Page/android.widget.TextView - Enter your password"")",,Check for the 1st Login,,2024-03-04 14:26:25,2024-03-04 14:26:28,3.327s,PASSED
+if (checkLinkedDevice == true),,Check is there is password page,,2024-03-04 14:26:28,2024-03-04 14:26:32,3.934s,PASSED
+delay(15),,,,2024-03-04 14:26:32,2024-03-04 14:26:47,15.018s,PASSED
+"tap(findTestObject(""SOW2-Market Order/android.widget.TextView _EditText""), 0, CONTINUE_ON_FAILURE)",,Tap on the Im converting,,2024-03-04 14:26:47,2024-03-04 14:26:48,0.264s,PASSED
+delay(15),,,,2024-03-04 14:26:48,2024-03-04 14:27:03,15.020s,PASSED
+"digits = ""5000""",,,,2024-03-04 14:27:03,2024-03-04 14:27:03,0.004s,PASSED
+Currency_Calculator.Currency_Numpad(digits),,,,2024-03-04 14:27:03,2024-03-04 14:27:29,26.753s,PASSED
+"utilities.Mobile_Keywords.sow2market_orderdropdown(""USD"", ""USD - US Dollar"")",,Select GBP,,2024-03-04 14:27:29,2024-03-04 14:27:34,4.087s,PASSED
+"verifyElementExist(findTestObject(""Global Account Page/dynamicText"", [""text"":""Exchange rate""]), 5, CONTINUE_ON_FAILURE)",,,,2024-03-04 14:27:34,2024-03-04 14:27:34,0.924s,PASSED
+"currency_TextMsg = getText(findTestObject(""General/android.widget.TextView - ConversionGBP""), 0, CONTINUE_ON_FAILURE)",,,,2024-03-04 14:27:34,2024-03-04 14:28:05,30.186s,FAILED
+"println(""This is"" + currency_TextMsg)",,,,2024-03-04 14:28:05,2024-03-04 14:28:05,0.056s,PASSED
+"currency_TextMsg = currency_TextMsg.replace(""GBP 1 = MYR "", """")",,,,2024-03-04 14:28:05,2024-03-04 14:28:05,0.014s,ERROR

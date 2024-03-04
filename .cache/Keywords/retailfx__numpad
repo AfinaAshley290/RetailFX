@@ -1,0 +1,22 @@
+{
+  "keywordFileContentHash": "3637B2FD5D38C7A2EAB68B58BC258308",
+  "keywordClasses": [
+    {
+      "name": "retailfx.numpad",
+      "keywordMethods": []
+    },
+    {
+      "name": "retailfx.calc",
+      "keywordMethods": []
+    },
+    {
+      "name": "retailfx.OTP",
+      "keywordMethods": []
+    },
+    {
+      "name": "retailfx.Currency_Calculator",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

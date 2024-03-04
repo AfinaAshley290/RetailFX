@@ -1,0 +1,945 @@
+[Appium] Welcome to Appium v1.22.3
+[Appium] Non-default server args:
+[Appium]   port: 51815
+[Appium]   loglevel: info
+[Appium]   tmpDir: /var/folders/4h/21hlj67943q66sl5hpmk8pb80000gn/T//Katalon/Appium/Temp1709090164164
+[Appium]   chromedriverPort: 51816
+[Appium] Deprecated server args:
+[Appium]   --chromedriver-port => --default-capabilities
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   chromedriverPort: 51816
+[Appium] Appium REST http interface listener started on 0.0.0.0:51815
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"appPackage":"com.android.settings","noReset":true,"appWaitActivity":"","deviceId":"","deviceName":"Xiaomi M2007J3SY (Android 10)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":"10000","platformVersion":"10","autoGrantPermission":true,"automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"f5a0e2d9","systemPort":8293},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:appWaitActivity":"","autoGrantPermission":true,"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"Xiaomi M2007J3SY (Android 10)","appium:newCommandTimeout":"10000","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"10","appium:systemPort":8293,"appium:udid":"f5a0e2d9"}]}}
+[BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver]   chromedriverPort
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.75.0) session
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver] Session created with session id: 57a73802-9972-49da-800e-8bd08394b5d5
+[UiAutomator2] Starting 'com.android.settings' directly on the device
+[ADB] Found 1 'build-tools' folders under '/Users/00145409nuralianatasha/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/00145409nuralianatasha/.katalon/tools/android_sdk/build-tools/29.0.3
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: f5a0e2d9
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[ADB] Getting device platform version
+[UiAutomator2] Relaxing hidden api policy
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] Using 'apksigner.jar' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[ADB] '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.29.1.apk' is signed with the default certificate
+[ADB] '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[UiAutomator2] Server packages are not going to be (re)installed
+[ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[UiAutomator2] Starting UIAutomator2 server 4.29.1
+[UiAutomator2] Using UIAutomator2 server from '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.29.1.apk' and test from '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[WD Proxy] socket hang up
+[WD Proxy] socket hang up
+[WD Proxy] Determined the downstream protocol as 'W3C'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[Appium] New AndroidUiautomator2Driver session created successfully, session 57a73802-9972-49da-800e-8bd08394b5d5 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 6316 ms - 1301
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5 200 8 ms - 1255
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5 200 4 ms - 1255
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 0 ms - 68
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/screenshot 200 259 ms - 189714
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect 200 8 ms - 50
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/appium/device/system_bars
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/appium/device/system_bars 200 62 ms - 148
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/appium/device/activate_app
+[HTTP] {"bundleId":"com.maybank2u.life.uat"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/appium/device/activate_app 500 226 ms - 1749
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect 200 8 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 179 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 60 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 51 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 96 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 99 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 92 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 85 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect 200 6 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 84 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 89 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 78 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 76 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 76 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect 200 5 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 84 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 89 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 84 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 82 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 84 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 89 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 91 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 85 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 91 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 84 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 85 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 85 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 1068 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect 200 5 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 76 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 4374 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 1400 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect 200 10 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 1072 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 1567 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 96 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 99 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 83 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 832 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 2092 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/window/rect 200 6 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 90 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 90 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 1568 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 51 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 53 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 51 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 516 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 50 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 50 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 54 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/57a73802-9972-49da-800e-8bd08394b5d5/elements 200 103 ms - 12
+[HTTP] 

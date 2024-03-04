@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test on Different User,,,,2024-02-29 12:06:28,2024-02-29 12:33:34,27m - 6.518s,FAILED
+,,,,,,,
+Test Cases/RETAILFX-SOW2 Market Order/E2E - different User by Dealt Currency,,,,2024-02-29 12:06:28,2024-02-29 12:33:34,27m - 6.110s,FAILED
+"startExistingApplication(""com.maybank2u.life.uat"")",,,,2024-02-29 12:06:29,2024-02-29 12:06:46,16.697s,PASSED
+"for ([row = 1, row <= findTestData(""Dealt_MYR_SGD"").getRowNumbers(), (row++)])",,,,2024-02-29 12:06:46,2024-02-29 12:33:34,26m - 48.712s,FAILED

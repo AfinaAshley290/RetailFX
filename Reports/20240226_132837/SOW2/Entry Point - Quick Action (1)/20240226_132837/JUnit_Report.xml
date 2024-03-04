@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Entry Point - Quick Action (1)" time="151.858" tests="1" failures="1" errors="0">
+   <testsuite name="Entry Point - Quick Action (1)" tests="1" failures="1" errors="0" time="151.858" skipped="0" timestamp="2024-02-26 13:28:41" hostname="00145409nuralianatasha - localhost" id="Test Suites/SOW2/Entry Point - Quick Action (1)">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837"/>
+         <property name="logFiles" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/execution0.log, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/appium.log"/>
+         <property name="attachments" value="/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925399471.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925408445.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925417214.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925436938.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925447795.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925470749.png, /Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925472613.png"/>
+         <property name="hostName" value="00145409nuralianatasha - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR" time="151.391" classname="Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Global Account Page/dynamicText' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at SOW2 - Covert from USD to MYR.run(SOW2 - Covert from USD to MYR:119)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1708925317849.run(TempTestSuite1708925317849.groovy:36)
+"/>
+         <system-out><![CDATA[2024-02-26 13:28:41 - [TEST_CASE][FAILED] - Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR: Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Global Account Page/dynamicText' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at SOW2 - Covert from USD to MYR.run(SOW2 - Covert from USD to MYR:119)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1708925317849.run(TempTestSuite1708925317849.groovy:36)
+
+
+2024-02-26 13:28:42 - [TEST_STEP][PASSED] - startExistingApplication("com.maybank2u.life.uat"): Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-02-26 13:28:42 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '']
+
+2024-02-26 13:28:42 - [MESSAGE][INFO] - User set preference: ['autoGrantPermission', 'true']
+
+2024-02-26 13:28:42 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2024-02-26 13:28:42 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2024-02-26 13:28:42 - [MESSAGE][INFO] - User set preference: ['newCommandTimeout', '10000']
+
+2024-02-26 13:28:42 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/20.2.0/bin/node"
+
+2024-02-26 13:28:43 - [MESSAGE][INFO] - Appium server started on port 49,519
+
+2024-02-26 13:28:54 - [MESSAGE][PASSED] - Starting app with application ID: 'com.maybank2u.life.uat'
+
+2024-02-26 13:28:54 - [TEST_STEP][PASSED] - a = 8: null
+
+2024-02-26 13:28:54 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":findTestData("Username_Password").getValue("G1A_Account_No", a)]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:28:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:28:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:28:56 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Convert Currency"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:28:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:28:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:28:56 - [TEST_STEP][PASSED] - checkLinkedDevice = Validation.checkElementExists("Object Repository/Market Order Page/android.widget.TextView - Enter your password"): Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' not found
+
+2024-02-26 13:29:26 - [MESSAGE][WARNING] - Element 'Object Repository/Market Order Page/android.widget.TextView - Enter your password' not found
+
+2024-02-26 13:29:26 - [TEST_STEP][PASSED] - if (checkLinkedDevice == true): null
+
+2024-02-26 13:29:26 - [TEST_STEP][PASSED] - else: null
+
+2024-02-26 13:29:26 - [TEST_STEP][PASSED] - CONTINUE_ON_FAILURE: null
+
+2024-02-26 13:29:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-26 13:29:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-26 13:29:31 - [TEST_STEP][PASSED] - comment("TC039 - Validate user able to search for the currency"): TC039 - Validate user able to search for the currency
+
+2024-02-26 13:29:31 - [MESSAGE][INFO] - TC039 - Validate user able to search for the currency
+
+2024-02-26 13:29:31 - [TEST_STEP][PASSED] - utilities.Market_Order.MarketOrder_FromDropdown("US Dol", "USD - US Dollar"): utilities.Market_Order.MarketOrder_FromDropdown is PASSED
+
+2024-02-26 13:29:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.TextView - Convert_Dropdown'
+
+2024-02-26 13:29:35 - [MESSAGE][PASSED] - Element 'Object Repository/SOW2-Market Order/Convert_Dropdown/android.view.View - Select Currency' is present
+
+2024-02-26 13:29:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency'
+
+2024-02-26 13:29:37 - [MESSAGE][PASSED] - Text 'US Dol' has been set to element 'Object Repository/SOW2-Market Order/Convert_Dropdown/android.widget.EditText_Select_Currency'
+
+2024-02-26 13:29:37 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-02-26 13:29:38 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:29:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:29:38 - [MESSAGE][PASSED] - utilities.Market_Order.MarketOrder_FromDropdown is PASSED
+
+2024-02-26 13:29:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-26 13:29:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-26 13:29:48 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.widget.TextView _EditText"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.widget.TextView _EditText'
+
+2024-02-26 13:29:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:29:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.TextView _EditText'
+
+2024-02-26 13:29:49 - [TEST_STEP][PASSED] - digits = "1000": null
+
+2024-02-26 13:29:49 - [TEST_STEP][PASSED] - Currency_Calculator.Currency_Numpad(digits): Tapped on element 'Object Repository/Calc_Pad/android.widget.Image'
+
+2024-02-26 13:29:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calc_Pad/android.widget.TextView - 1'
+
+2024-02-26 13:29:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calc_Pad/android.widget.TextView - 0'
+
+2024-02-26 13:29:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calc_Pad/android.widget.TextView - 0'
+
+2024-02-26 13:29:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calc_Pad/android.widget.TextView - 0'
+
+2024-02-26 13:29:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Calc_Pad/android.widget.Image'
+
+2024-02-26 13:29:54 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.sow2market_orderdropdown("MYR", "MYR - Malaysian Ringgit"): utilities.Mobile_Keywords.sow2market_orderdropdown is PASSED
+
+2024-02-26 13:29:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:29:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/Select_Currency Dropdown'
+
+2024-02-26 13:29:55 - [MESSAGE][PASSED] - Element 'Object Repository/SOW2-Market Order/android.view.View - Select Currency' is present
+
+2024-02-26 13:29:55 - [MESSAGE][PASSED] - Element 'Object Repository/SOW2-Market Order/android.view.View - Select Currency' is exist
+
+2024-02-26 13:29:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency'
+
+2024-02-26 13:29:56 - [MESSAGE][PASSED] - Text 'MYR' has been set to element 'Object Repository/SOW2-Market Order/android.widget.EditText_SearchCurrency'
+
+2024-02-26 13:29:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2024-02-26 13:29:57 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:29:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:29:58 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.sow2market_orderdropdown is PASSED
+
+2024-02-26 13:29:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Exchange rate"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:29:59 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:29:59 - [TEST_STEP][PASSED] - currency_TextMsg = getText(findTestObject("General/android.widget.TextView _Conversion"), 5, CONTINUE_ON_FAILURE): Text of element 'Object Repository/General/android.widget.TextView _Conversion' is: 'USD 1 = MYR 4.7635'
+
+2024-02-26 13:29:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/General/android.widget.TextView _Conversion' is: 'USD 1 = MYR 4.7635'
+
+2024-02-26 13:29:59 - [TEST_STEP][PASSED] - roundedNumber = Validation.convertMYRtoUSD(currency_TextMsg): null
+
+2024-02-26 13:29:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Conversion fee"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:29:59 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:29:59 - [TEST_STEP][PASSED] - Conversion_Fee = getText(findTestObject("SOW2-Market Order/ConversionFee_Text"), 5, CONTINUE_ON_FAILURE): Text of element 'Object Repository/SOW2-Market Order/ConversionFee_Text' is: 'USD 0.00'
+
+2024-02-26 13:29:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/SOW2-Market Order/ConversionFee_Text' is: 'USD 0.00'
+
+2024-02-26 13:29:59 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("General/android.widget.EditText _AmountReceived", ["text":roundedNumber]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/General/android.widget.EditText _AmountReceived' is exist
+
+2024-02-26 13:29:59 - [MESSAGE][PASSED] - Element 'Object Repository/General/android.widget.EditText _AmountReceived' is exist
+
+2024-02-26 13:29:59 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-02-26 13:29:59 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925399471.png]]
+
+2024-02-26 13:29:59 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Next"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Dynamic_Button'
+
+2024-02-26 13:29:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:30:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Dynamic_Button'
+
+2024-02-26 13:30:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Step 2 of 2"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:01 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Step 2 of 2"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:01 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"USD/MYR"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:01 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:01 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom(): utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-02-26 13:30:01 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-02-26 13:30:02 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-02-26 13:30:03 - [MESSAGE][PASSED] - Swiped from 540,1,496 to 540,641
+
+2024-02-26 13:30:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-26 13:30:08 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-02-26 13:30:08 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-02-26 13:30:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925408445.png]]
+
+2024-02-26 13:30:08 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Get Quote"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Dynamic_Button'
+
+2024-02-26 13:30:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:30:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Dynamic_Button'
+
+2024-02-26 13:30:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Confirmation"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:10 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:10 - [TEST_STEP][PASSED] - comment("Confirmation Page"): Confirmation Page
+
+2024-02-26 13:30:10 - [MESSAGE][INFO] - Confirmation Page
+
+2024-02-26 13:30:10 - [TEST_STEP][PASSED] - currency_TextMsg2 = getText(findTestObject("General/android.widget.TextView _Conversion"), 0, CONTINUE_ON_FAILURE): Text of element 'Object Repository/General/android.widget.TextView _Conversion' is: 'USD 1 = MYR 4.7635'
+
+2024-02-26 13:30:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:30:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/General/android.widget.TextView _Conversion' is: 'USD 1 = MYR 4.7635'
+
+2024-02-26 13:30:11 - [TEST_STEP][PASSED] - roundedNumber2 = Validation.convertMYRtoUSD(currency_TextMsg2): null
+
+2024-02-26 13:30:11 - [TEST_STEP][PASSED] - println("the total amount received" + roundedNumber2): null
+
+2024-02-26 13:30:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Amount to receive"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:12 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:12 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"MYR" + roundedNumber2]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:17 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:17 - [TEST_STEP][PASSED] - takeScreenshot(CONTINUE_ON_FAILURE): Screenshot is taken
+
+2024-02-26 13:30:17 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925417214.png]]
+
+2024-02-26 13:30:17 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer'
+
+2024-02-26 13:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:30:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.view.View - I have read and agree to the BNM Foreign Exchange Rules, I accept the declaration as well as the Terms  Conditions for this transfer'
+
+2024-02-26 13:30:18 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom(): utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-02-26 13:30:18 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-02-26 13:30:18 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-02-26 13:30:19 - [MESSAGE][PASSED] - Swiped from 540,1,496 to 540,641
+
+2024-02-26 13:30:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-26 13:30:24 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-02-26 13:30:24 - [TEST_STEP][PASSED] - tap(findTestObject("SOW2-Market Order/android.widget.Dynamic_Button", ["text":"Confirm"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Dynamic_Button'
+
+2024-02-26 13:30:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:30:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SOW2-Market Order/android.widget.Dynamic_Button'
+
+2024-02-26 13:30:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:30 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:30 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:31 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Reference ID"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:30:31 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:31 - [TEST_STEP][PASSED] - reference_id = getText(findTestObject("Market Order Page/android.widget.TextView - Reference ID"), 5, CONTINUE_ON_FAILURE): Text of element 'Object Repository/Market Order Page/android.widget.TextView - Reference ID' is: '004136361M'
+
+2024-02-26 13:30:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/Market Order Page/android.widget.TextView - Reference ID' is: '004136361M'
+
+2024-02-26 13:30:31 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"MYR " + roundedNumber2]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:36 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Done"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:36 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:36 - [TEST_STEP][PASSED] - takeScreenshot(CONTINUE_ON_FAILURE): Screenshot is taken
+
+2024-02-26 13:30:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925436938.png]]
+
+2024-02-26 13:30:37 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Share Receipt"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:30:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:30:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:30:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2024-02-26 13:30:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2024-02-26 13:30:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Currency Exchange"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:47 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:30:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Completed"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:47 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:47 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-02-26 13:30:48 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925447795.png]]
+
+2024-02-26 13:30:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"From account"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:48 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:48 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Global Access Account-i (USD)
+
+9000 0002 1160"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:53 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"To account"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:53 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:30:53 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Global Access Account-i (MYR)
+
+9000 0002 1160"]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:58 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:30:58 - [TEST_STEP][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom(): utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-02-26 13:30:58 - [MESSAGE][PASSED] - Current device physical height is 2138
+
+2024-02-26 13:30:59 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2024-02-26 13:31:00 - [MESSAGE][PASSED] - Swiped from 540,1,496 to 540,641
+
+2024-02-26 13:31:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-26 13:31:05 - [MESSAGE][PASSED] - utilities.Mobile_Keywords.scrollFromTopToBottom is PASSED
+
+2024-02-26 13:31:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":Conversion_Fee]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:31:05 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:31:05 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"MYR " + roundedNumber2]), 5, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:31:10 - [MESSAGE][FAILED] - Element 'Object Repository/Global Account Page/dynamicText' not found
+
+2024-02-26 13:31:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-02-26 13:31:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925470749.png]]
+
+2024-02-26 13:31:11 - [TEST_STEP][PASSED] - tap(findTestObject("Market Order Page/android.widget.ImageViewBack_Button"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Market Order Page/android.widget.ImageViewBack_Button'
+
+2024-02-26 13:31:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:31:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Market Order Page/android.widget.ImageViewBack_Button'
+
+2024-02-26 13:31:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:31:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:31:12 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is present
+
+2024-02-26 13:31:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Global Account Page/dynamicText", ["text":"Transaction Successful"]), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:31:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:31:12 - [MESSAGE][PASSED] - Element 'Object Repository/Global Account Page/dynamicText' is exist
+
+2024-02-26 13:31:12 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2024-02-26 13:31:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/00145409nuralianatasha/Desktop/automation_Retail_FX(public_git)/Reports/20240226_132837/SOW2/Entry Point - Quick Action (1)/20240226_132837/1708925472613.png]]
+
+2024-02-26 13:31:13 - [TEST_STEP][PASSED] - tap(findTestObject("Global Account Page/dynamicText", ["text":"Done"]), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/Global Account Page/dynamicText'
+
+2024-02-26 13:31:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 13:31:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Global Account Page/dynamicText']]></system-out>
+         <system-err><![CDATA[2024-02-26 13:28:41 - [TEST_CASE][FAILED] - Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR: Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Global Account Page/dynamicText' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at SOW2 - Covert from USD to MYR.run(SOW2 - Covert from USD to MYR:119)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1708925317849.run(TempTestSuite1708925317849.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-26 13:28:41 - [TEST_SUITE][FAILED] - Entry Point - Quick Action (1): Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Global Account Page/dynamicText' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at SOW2 - Covert from USD to MYR.run(SOW2 - Covert from USD to MYR:119)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1708925317849.run(TempTestSuite1708925317849.groovy:36)]]></system-out>
+      <system-err><![CDATA[2024-02-26 13:28:41 - [TEST_SUITE][FAILED] - Entry Point - Quick Action (1): Test Cases/RETAILFX-SOW2 Market Order/Entry Point - Quick Action/SOW2 - Covert from USD to MYR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Global Account Page/dynamicText' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1739)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$1.call(Unknown Source)
+	at SOW2 - Covert from USD to MYR.run(SOW2 - Covert from USD to MYR:119)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1708925317849.run(TempTestSuite1708925317849.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

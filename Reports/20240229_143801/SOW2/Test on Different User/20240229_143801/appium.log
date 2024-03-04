@@ -1,0 +1,1921 @@
+[Appium] Welcome to Appium v1.22.3
+[Appium] Non-default server args:
+[Appium]   port: 57337
+[Appium]   loglevel: info
+[Appium]   tmpDir: /var/folders/4h/21hlj67943q66sl5hpmk8pb80000gn/T//Katalon/Appium/Temp1709188690772
+[Appium]   chromedriverPort: 57338
+[Appium] Deprecated server args:
+[Appium]   --chromedriver-port => --default-capabilities
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   chromedriverPort: 57338
+[Appium] Appium REST http interface listener started on 0.0.0.0:57337
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"appPackage":"com.android.settings","noReset":true,"appWaitActivity":"","deviceId":"","deviceName":"Xiaomi M2007J3SY (Android 10)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":"10000","platformVersion":"10","autoGrantPermission":true,"automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"f5a0e2d9","systemPort":8280},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:appWaitActivity":"","autoGrantPermission":true,"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"Xiaomi M2007J3SY (Android 10)","appium:newCommandTimeout":"10000","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"10","appium:systemPort":8280,"appium:udid":"f5a0e2d9"}]}}
+[BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver]   chromedriverPort
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.75.0) session
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver] Session created with session id: 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[UiAutomator2] Starting 'com.android.settings' directly on the device
+[ADB] Found 1 'build-tools' folders under '/Users/00145409nuralianatasha/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/00145409nuralianatasha/.katalon/tools/android_sdk/build-tools/29.0.3
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: f5a0e2d9
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[ADB] Getting device platform version
+[UiAutomator2] Relaxing hidden api policy
+[AndroidDriver] No app sent in, not parsing package/activity
+[ADB] Using 'apksigner.jar' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[ADB] '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.29.1.apk' is signed with the default certificate
+[ADB] '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[UiAutomator2] Server packages are not going to be (re)installed
+[ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[UiAutomator2] Starting UIAutomator2 server 4.29.1
+[UiAutomator2] Using UIAutomator2 server from '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.29.1.apk' and test from '/opt/homebrew/Cellar/appium/1.22.3/libexec/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[WD Proxy] socket hang up
+[WD Proxy] socket hang up
+[WD Proxy] Determined the downstream protocol as 'W3C'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[Appium] New AndroidUiautomator2Driver session created successfully, session 458af8a7-e1d0-4487-bbeb-8f180c938af2 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 7899 ms - 1301
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2 200 4 ms - 1255
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2 200 4 ms - 1255
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/screenshot 200 418 ms - 187914
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 16 ms - 50
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/system_bars
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/system_bars 200 124 ms - 148
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/activate_app
+[HTTP] {"bundleId":"com.maybank2u.life.uat"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/activate_app 200 315 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 7 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 724 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 72 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 72 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 73 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 74 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1677 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/location 200 10 ms - 78
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000003c"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/click 200 30 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 10 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 566 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/location 200 14 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000003c"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003c/click 200 36 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 17 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Next' or . = 'Next')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 599 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/location 200 16 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000003e"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/click 200 33 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 13 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 608 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 51 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 108 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 54 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 617 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 107 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 92 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 89 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 143 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 96 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 68 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 69 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 53 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 74 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 76 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 69 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 72 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 65 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 90 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 73 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 91 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 61 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 70 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 67 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 81 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 656 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 71 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 71 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 21 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Got It' or . = 'Got It')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 123 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/location 200 12 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000003e"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000003e/click 200 54 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 16 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Agree' or . = 'Agree')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 619 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0274-ffff-ffff0000005d/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0274-ffff-ffff0000005d/location 200 15 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0274-ffff-ffff0000005d/click
+[HTTP] {"id":"00000000-0000-0274-ffff-ffff0000005d"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0274-ffff-ffff0000005d/click 200 45 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 14 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Log In Now' or . = 'Log In Now')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 2246 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000009f/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000009f/location 200 421 ms - 78
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 17 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Log In Now' or . = 'Log In Now')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 298 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000009f/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000009f/location 200 18 ms - 78
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000009f/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000009f"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000009f/click 200 53 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 10 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Existing M2U/MAE user? Log in here' or . = 'Existing M2U/MAE user? Log in here')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1629 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001c3/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001c3/location 200 24 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001c3/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff000001c3"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001c3/click 200 54 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 15 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = '' or . = '')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 980 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001df/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001df/location 200 21 ms - 77
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001df/clear
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff000001df"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001df/clear 200 31 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001df/value
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff000001df","text":"retailfx5","value":["r","e","t","a","i","l","f","x","5"]}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001df/value 200 628 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context 200 0 ms - 22
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/contexts 200 84 ms - 24
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/hide_keyboard
+[HTTP] {}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/hide_keyboard 200 1133 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 16 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Continue' or . = 'Continue')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 168 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001e6/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001e6/location 200 11 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001e6/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff000001e6"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000001e6/click 200 46 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 12 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Yes, It’s Mine' or . = 'Yes, It’s Mine')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1666 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000020c/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000020c/location 200 25 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000020c/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000020c"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000020c/click 200 52 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 15 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = '' or . = '')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1100 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000022a/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000022a/location 200 19 ms - 77
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000022a/clear
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000022a"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000022a/clear 200 22 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000022a/value
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000022a","text":"Maybank@1","value":["M","a","y","b","a","n","k","@","1"]}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000022a/value 200 709 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context 200 1 ms - 22
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/contexts 200 94 ms - 24
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context 200 0 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/hide_keyboard
+[HTTP] {}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/appium/device/hide_keyboard 200 2760 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/context 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 17 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Continue' or . = 'Continue')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 190 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000233/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000233/location 200 14 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000233/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff00000233"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000233/click 200 52 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 18 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 910 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 149 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1258 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 112 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 128 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 171 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 151 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 154 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 138 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 127 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 134 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 138 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 125 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 140 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 141 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 135 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 133 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 104 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 133 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 143 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 624 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 145 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 137 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 139 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 134 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 119 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 99 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 110 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 84 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 119 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 105 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 72 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 108 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 112 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 117 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 112 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 109 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 108 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 121 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 128 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 167 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 110 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 130 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 113 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 118 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 75 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 54 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 59 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 65 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 61 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 110 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 134 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 132 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 107 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 119 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 107 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 126 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 117 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 104 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 125 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 133 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 96 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 135 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 139 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 135 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 116 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 120 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 126 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 647 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 133 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 88 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 103 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 174 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 135 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 113 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 113 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 112 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 106 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 123 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 150 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 130 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 754 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 90 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 151 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 99 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 85 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 102 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 158 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 103 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 138 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 149 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 130 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 109 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 119 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 107 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 77 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 59 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 127 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 123 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 107 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 86 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 124 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 110 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 127 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 114 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 150 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 141 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 147 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 114 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 104 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 118 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 147 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 159 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 108 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 107 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 90 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 143 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 84 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 105 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 138 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 110 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 109 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 131 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 108 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 87 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 110 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 151 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 113 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 139 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 89 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 101 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 116 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 133 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 740 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 159 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 141 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 151 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 130 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 130 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 75 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 51 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 96 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 96 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 109 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 133 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 127 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 115 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 129 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 80 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 109 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 105 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 93 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 102 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 94 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 113 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 145 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 103 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 100 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 79 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 146 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 92 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 96 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 141 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 111 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 109 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 89 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 106 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 136 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 126 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 158 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your Maybank2u ID is already linked to the following device.' or . = 'Your Maybank2u ID is already linked to the following device.')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 120 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 11 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your PIN no. is 111111' or . = 'Your PIN no. is 111111')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 143 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000255/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000255/location 200 20 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000255/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff00000255"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff00000255/click 200 1664 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 16 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[12]/android.widget.ImageView[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 113 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000026e/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000026e/location 200 14 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000026e/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000026e"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000026e/click 200 45 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 9 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your PIN no. is 111111' or . = 'Your PIN no. is 111111')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 90 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Your PIN no. is 111111' or . = 'Your PIN no. is 111111')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1018 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000028b/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000028b/location 200 545 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000028b/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff0000028b"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff0000028b/click 200 47 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 9 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[12]/android.widget.ImageView[1]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 82 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002a4/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002a4/location 200 1472 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002a4/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff000002a4"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002a4/click 200 57 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 11 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Set Up Later' or . = 'Set Up Later')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 108 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Set Up Later' or . = 'Set Up Later')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1690 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0275-ffff-ffff000002c0/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0275-ffff-ffff000002c0/location 200 14 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0275-ffff-ffff000002c0/click
+[HTTP] {"id":"00000000-0000-0275-ffff-ffff000002c0"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0275-ffff-ffff000002c0/click 200 52 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 9 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Yes, Proceed' or . = 'Yes, Proceed')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 198 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Yes, Proceed' or . = 'Yes, Proceed')]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 864 ms - 139
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002d9/location
+[HTTP] {}
+[W3C (458af8a7)] Driver proxy active, passing request on via HTTP proxy
+[WD Proxy] Replacing sessionId 1e049abd-ea1f-4ade-af24-a1012d78cba1 with 458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002d9/location 200 12 ms - 79
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002d9/click
+[HTTP] {"id":"00000000-0000-0273-ffff-ffff000002d9"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/element/00000000-0000-0273-ffff-ffff000002d9/click 200 41 ms - 14
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":50}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 0 ms - 14
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/window/rect 200 17 ms - 50
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 1069 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 64 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 53 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 50 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 55 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 62 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 53 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 55 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 53 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 52 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 111 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 54 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 97 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 119 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 66 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 51 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 54 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 55 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 67 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 51 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 54 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 111 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 63 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 53 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 61 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 57 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 57 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 665 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 75 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 75 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 54 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 95 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 56 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 59 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 60 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 59 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 98 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements
+[HTTP] {"using":"xpath","value":"//*[@class = 'android.widget.TextView' and contains(@text, \"Your OTP no. is\")]"}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/elements 200 112 ms - 12
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts
+[HTTP] {"implicit":30000}
+[HTTP] <-- POST /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2/timeouts 200 1 ms - 14
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2
+[HTTP] {}
+[Appium] Removing session 458af8a7-e1d0-4487-bbeb-8f180c938af2 from our master session list
+[UiAutomator2] Restoring hidden api policy to the device default configuration
+[HTTP] <-- DELETE /wd/hub/session/458af8a7-e1d0-4487-bbeb-8f180c938af2 200 332 ms - 14
+[HTTP] 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify The Conversion From MYR to USD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb2c7ce7-9d5a-4d31-8406-388ef466eb6f</testCaseGuid>
+</TestCaseEntity>

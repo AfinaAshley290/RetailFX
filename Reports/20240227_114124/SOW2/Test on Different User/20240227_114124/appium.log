@@ -1,0 +1,45 @@
+[Appium] Welcome to Appium v1.22.3
+[Appium] Non-default server args:
+[Appium]   port: 49587
+[Appium]   loglevel: info
+[Appium]   tmpDir: /var/folders/4h/21hlj67943q66sl5hpmk8pb80000gn/T//Katalon/Appium/Temp1709005293745
+[Appium]   chromedriverPort: 49588
+[Appium] Deprecated server args:
+[Appium]   --chromedriver-port => --default-capabilities
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   chromedriverPort: 49588
+[Appium] Appium REST http interface listener started on 0.0.0.0:49587
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 68
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"appPackage":"com.android.settings","noReset":true,"appWaitActivity":"","deviceId":"","deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":"10000","platformVersion":"13","autoGrantPermission":true,"automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":8276},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:appWaitActivity":"","autoGrantPermission":true,"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 13)","appium:newCommandTimeout":"10000","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"13","appium:systemPort":8276,"appium:udid":"emulator-5554"}]}}
+[BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver]   chromedriverPort
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.75.0) session
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[BaseDriver] Capability 'newCommandTimeout' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+[BaseDriver]   autoGrantPermission
+[BaseDriver]   deviceId
+[BaseDriver]   platform
+[BaseDriver] Session created with session id: ec7c95d3-72ea-44cd-b6fb-7d94a0e1fce3
+[UiAutomator2] Starting 'com.android.settings' directly on the device
+[ADB] Found 1 'build-tools' folders under '/Users/00145409nuralianatasha/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/00145409nuralianatasha/.katalon/tools/android_sdk/build-tools/29.0.3
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: emulator-5554
+[ADB] Using 'adb' from '/Users/00145409nuralianatasha/.katalon/tools/android_sdk/platform-tools/adb'
+[ADB] Getting device platform version
+[UiAutomator2] Relaxing hidden api policy
+[AndroidDriver] No app sent in, not parsing package/activity
+[UiAutomator2] Restoring hidden api policy to the device default configuration
+[HTTP] <-- POST /wd/hub/session 500 881 ms - 1199
+[HTTP] 
+[Appium] Received SIGTERM - shutting down
