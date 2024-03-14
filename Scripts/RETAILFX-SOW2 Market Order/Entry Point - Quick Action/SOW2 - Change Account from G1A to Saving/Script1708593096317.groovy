@@ -20,7 +20,7 @@ import retailfx.Currency_Calculator as numpad
 import retailfx.Validation as Validation
 import java.text.DecimalFormat as DecimalFormat
 
-Mobile.startExistingApplication('com.maybank2u.life.uat')
+
 
 int a = 8
 

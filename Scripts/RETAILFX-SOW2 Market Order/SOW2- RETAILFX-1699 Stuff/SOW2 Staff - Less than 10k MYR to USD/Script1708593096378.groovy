@@ -52,6 +52,8 @@ if (checkLinkedDevice == true) {
 
 Mobile.delay(10)
 
+Validation.Terms_Condition()
+
 'Tap on the Im converting'
 Mobile.tap(findTestObject('SOW2-Market Order/android.widget.TextView _EditText'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

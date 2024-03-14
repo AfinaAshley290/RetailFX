@@ -94,7 +94,8 @@ Mobile.takeScreenshot()
 'Tap Next'
 Mobile.tap(findTestObject('SOW2-Market Order/android.widget.Dynamic_Button', [('text') : 'Next']), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.swipe(450, 884, 0, 884, FailureHandling.CONTINUE_ON_FAILURE)
+'Select account'
+CustomKeywords.'utilities.Market_Order.Account_Selection'('564017148767')
 
 Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Current Account-i (MYR)']), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

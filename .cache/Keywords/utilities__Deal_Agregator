@@ -1,46 +1,9 @@
 {
-  "keywordFileContentHash": "6A1AA0881ED154175FDEAFBCBB684AC1",
+  "keywordFileContentHash": "4ABCF0B21E0CB441A4170D53FF765720",
   "keywordClasses": [
     {
       "name": "utilities.Deal_Agregator",
       "keywordMethods": [
-        {
-          "name": "isElementPresent_Mobile",
-          "parameters": [
-            {
-              "name": "to",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "timeout",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "int",
-                "unresolvedClassName": "int",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
-        },
-        {
-          "name": "getCurrentSessionMobileDriver",
-          "parameters": [],
-          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
-        },
         {
           "name": "sow2market_orderdropdown",
           "parameters": [

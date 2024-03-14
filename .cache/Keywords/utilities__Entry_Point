@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "257AC90361B32241AF96397F071E5601",
+  "keywordFileContentHash": "BA28B1CDF2FB682B49D0B10AF3AD70FF",
   "keywordClasses": [
     {
       "name": "utilities.Entry_Point",
@@ -25,6 +25,25 @@
         },
         {
           "name": "Account_Dashboard",
+          "parameters": [
+            {
+              "name": "a",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "Currency_account",
           "parameters": [
             {
               "name": "a",

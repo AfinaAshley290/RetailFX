@@ -51,6 +51,8 @@ if (checkLinkedDevice == true) {
 
 Mobile.delay(10)
 
+Validation.Terms_Condition()
+
 'Tap on the Im converting'
 Mobile.tap(findTestObject('SOW2-Market Order/android.widget.TextView _EditText'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -249,6 +251,7 @@ Mobile.waitForElementPresent(findTestObject('Global Account Page/dynamicText', [
 Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'Transaction Successful']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.takeScreenshot()
+
 
 Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Done']), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

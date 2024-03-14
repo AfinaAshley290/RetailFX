@@ -96,7 +96,7 @@ class Validation {
 
 	public static convertUSDToMYR(String currency_TextMsg)
 	{
-		//def currency_TextMsg = Mobile.getText(findTestObject('General/android.widget.TextView _Conversion'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
 
 		println('This is' + currency_TextMsg)
 
@@ -263,11 +263,68 @@ class Validation {
 
 		LocalDateTime myDateObj = LocalDateTime.now()
 
-		DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("d MMM yyyy HH:mm")
+		DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("d MMM yyyy HH:mm:ss")
 
 		String formattedDate = myDateObj.format(myFormatObj)
 
 		return formattedDate
 
 	}
+
+	public static Terms_Condition() {
+
+		Boolean check_terms = Mobile.verifyElementExist(findTestObject('Object Repository/SOW2-Market Order/Agreement/android.widget.TextView - Terms  Conditions'), 10, FailureHandling.OPTIONAL)
+
+		if (check_terms == true) {
+			scrollFromTopToBottom()
+
+			Mobile.takeScreenshot()
+
+			scrollFromTopToBottom()
+
+			Mobile.takeScreenshot()
+
+			scrollFromTopToBottom()
+
+			Mobile.takeScreenshot()
+
+
+			'Tap Agree and Confirm'
+			Mobile.tap(findTestObject('Global Account Page/android.widget.TextView - Agree  Confirm'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+		} else {
+			FailureHandling.CONTINUE_ON_FAILURE
+		}
+	}
+
+	public static push_notification() {
+
+		/*This function is used to check the Message of push notification*/
+
+		Mobile.openNotifications()
+
+		Mobile.delay(10)
+
+		if (Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'MAE (UAT)']), 0, FailureHandling.OPTIONAL)) {
+			Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'MAE (UAT)']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+			if (Mobile.verifyElementText(findTestObject('Global Account Page/dynamicText', [('text') : 'Maybank2u: Currency Exchange']),
+			'Maybank2u: Currency Exchange', FailureHandling.CONTINUE_ON_FAILURE)) {
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Maybank2u: Currency Exchange']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+				Mobile.waitForElementNotPresent(findTestObject('Global Account Page/dynamicText', [('text') : 'Notifications']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+				def Notif_statement = Mobile.getText(findTestObject('Push_Notif/android.widget.TextView - First_Notification'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+				Mobile.comment(Notif_statement)
+
+				Mobile.takeScreenshot()
+
+				Mobile.tap(findTestObject('Push_Notif/back_button'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+			}
+		} else {
+			Mobile.closeNotifications()
+		}
+	}
+
+
 }

@@ -108,7 +108,7 @@ Mobile.waitForElementPresent(findTestObject('Global Account Page/dynamicText', [
 'Verify Account Selection Page'
 Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'Step 2 of 2']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'GBP/MYR']), 5, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'USD/MYR']), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Verify Im coverting'
 Mobile.verifyElementExist(findTestObject('android.widget.TextView - Im converting'), 0, FailureHandling.CONTINUE_ON_FAILURE)

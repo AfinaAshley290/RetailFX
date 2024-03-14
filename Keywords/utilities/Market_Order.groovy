@@ -58,11 +58,26 @@ class Market_Order {
 	}
 
 	@Keyword
-	def Account_Selection() {
+	def Account_Selection(String Account_Number) {
+
+		'Swipe to find the account'
+		for (int i = 0; i < 9; i++) {
+
+			if (Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : Account_Number]), 0, FailureHandling.OPTIONAL)) {
+				Mobile.delay(2)
+				Mobile.takeScreenshot()
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : Account_Number]), 0, FailureHandling.OPTIONAL)
+				break;
+			}
+			else {
+				Mobile.swipe(450, 884, 0, 884, FailureHandling.OPTIONAL)
+			}
+		}
 	}
 
 	@Keyword
 	def Confirmation_Page() {
+		
 	}
 
 	@Keyword

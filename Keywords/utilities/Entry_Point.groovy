@@ -60,8 +60,6 @@ class Entry_Point {
 	@Keyword
 	def Quick_Action(int i) {
 
-
-
 		'Verify the Login button is available'
 		Mobile.verifyElementVisible(findTestObject('Object Repository/Dashboard_Login/android.widget.TextView - Login'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -199,6 +197,65 @@ class Entry_Point {
 		Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Convert Currency']), 0, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 
+	@Keyword
+	def Currency_account(int a) {
+
+		Mobile.verifyElementExist(findTestObject('Global Account Page/android.widget.TextView - View All Accounts'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+		Mobile.tap(findTestObject('Global Account Page/android.widget.TextView - View All Accounts'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+		def checkLinkedDevice = Validation.checkElementExists('Object Repository/Global Account Page/android.widget.TextView - Kill Switch')
+
+		if (checkLinkedDevice == true) {
+			'Verify is in Manage Device page'
+			Mobile.verifyElementExist(findTestObject('Object Repository/Global Account Page/android.widget.TextView - Kill Switch'),
+					0, FailureHandling.CONTINUE_ON_FAILURE)
+
+			'Manage Devices page'
+			Mobile.takeScreenshot()
+
+			'Tap on proceed button'
+			Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Got It']), 10, FailureHandling.CONTINUE_ON_FAILURE)
+		} else {
+			FailureHandling.CONTINUE_ON_FAILURE
+		}
+
+
+		for (int i = 0; i < 3; i++) {
+
+			if (Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : findTestData('Username_Password').getValue('G1A_Account_No',
+				a)]), 0, FailureHandling.OPTIONAL)) {
+				Mobile.delay(2)
+				Mobile.takeScreenshot()
+				Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : findTestData('Username_Password').getValue('G1A_Account_No',
+					a)]), 0, FailureHandling.CONTINUE_ON_FAILURE)
+				break;
+			}
+			else {
+				scrollFromTopToBottom()
+			}
+		}
+
+
+		Mobile.delay(2)
+
+		Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'Accounts']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+		scrollFromTopToBottom()
+
+		scrollFromTopToBottom()
+
+		Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'FX']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+		Mobile.waitForElementPresent(findTestObject('Global Account Page/dynamicText', [('text') : 'Stay Tuned']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+		Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'Stay Tuned']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+		Mobile.verifyElementExist(findTestObject('Global Account Page/dynamicText', [('text') : 'More features coming your way.']),
+		0, FailureHandling.CONTINUE_ON_FAILURE)
+
+		Mobile.tap(findTestObject('Global Account Page/dynamicText', [('text') : 'Convert Currency']), 0, FailureHandling.CONTINUE_ON_FAILURE)
+	}
 
 	@Keyword
 	def Login(int a) {

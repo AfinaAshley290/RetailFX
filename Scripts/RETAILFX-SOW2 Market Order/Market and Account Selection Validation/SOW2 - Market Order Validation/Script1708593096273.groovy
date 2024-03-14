@@ -42,6 +42,10 @@ if (checkLinkedDevice == true) {
     FailureHandling.CONTINUE_ON_FAILURE
 }
 
+Mobile.delay(10)
+
+Validation.Terms_Condition()
+
 
 'TC036 -  Validate the currency dropdown ccy1'
 Mobile.comment('TC036')
